@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: PASCO
 middle_name: 
 last_name: Florian
-email: f0pasco@enib.fr
+email:
 description: >
   Bienvenue sur ce petit site dédié à l'archivage et au partage des divers connaissances que j'ai accumulée.
 keywords: 
@@ -61,11 +61,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: mpek29 # your GitHub user name
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: florianpasco # your LinkedIn user name
+linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
