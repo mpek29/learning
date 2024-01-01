@@ -20,6 +20,6 @@ Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié 
 Les supports exposés ici sont liés aux thématiques suivantes :
 - la philosophie
 - la santé physique (sport + alimentation)
-- la technique (sciences appliquées)
+- la technique (sciences appliquées + mécanique automobile)
 - la gestion financière
-- des modes de vie/lifestyle (minimalisme, zéro déchet)
+- des modes de vie/lifestyle (minimalisme, zéro déchet, auto suffisance)
