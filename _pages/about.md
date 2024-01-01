@@ -18,7 +18,7 @@ Bonjour,
 Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié au partage des connaissances que j'ai accumulée au cours de ma vie ainsi qu'au partage de celles-ci à ceux qui le souhaitent. Ici, vous pourrez retrouver des pense-bêtes, des tutoriels, mais aussi des cours assez synthétique afin de vous élever par le savoir.
 
 Les supports exposés ici sont liés aux thématiques suivantes :
-- la philosophie
+- la psychologie et phylosophie
 - la santé physique (sport + alimentation)
 - la technique (sciences appliquées + mécanique automobile)
 - la gestion financière
