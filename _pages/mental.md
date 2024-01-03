@@ -5,7 +5,7 @@ permalink: /mental/
 description: Voici une liste de cours autour de la thématique de la santé mentale !
 nav: true
 nav_order: 2
-display_categories: [Psychologie/Phylosophie, Méditation]
+display_categories: [Psychologie/Phylosophie adlérienne]
 ---
 
 <!-- pages/mental.md -->

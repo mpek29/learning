@@ -4,7 +4,7 @@ title: Technique
 permalink: /technical/
 description: Voici une liste de cours autour de la thématique de la technique !
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [Informatique, Électronique, Mécanique, Maintenance automobile]
 ---
 
