@@ -8,25 +8,25 @@ importance: 1
 ## Dipôles de Base
 
 ### Resistance
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/resistor.svg" class="img-fluid" style="background-color: white; width: 180px;" %}
+{% include figure.html path="assets/img/technical/analogue_electronics/resistor.svg" class="img-fluid" style="background-color: white; width: 180px;" %}
 
 - Modèle : $$ u(t)=Ri(t) $$
 - Impedance généralisée : $$ Z_R=R $$
 
 ### Condensateur
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/capacitor.svg" class="img-fluid" style="background-color: white; width: 180px;" %}
+{% include figure.html path="assets/img/technical/analogue_electronics/capacitor.svg" class="img-fluid" style="background-color: white; width: 180px;" %}
 
 - Modèle : $$ i(t)=C\frac{du(t)}{dt} $$
 - Impedance généralisée : $$ Z_C=\frac{1}{jC\omega} $$
 
 ### Bobine
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/inductor.svg" class="img-fluid" style="background-color: white;width: 180px;" %}
+{% include figure.html path="assets/img/technical/analogue_electronics/inductor.svg" class="img-fluid" style="background-color: white;width: 180px;" %}
 - Modèle : $$ u(t)=L\frac{di(t)}{dt} $$
 - Impedance généralisée: $$ Z_L=jL\omega $$
 
 ## Associations de dipôles
 ### Mise en série
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/serie.svg" class="img-fluid" style="background-color: white;width: 200px;" %}
+{% include figure.html path="assets/img/technical/analogue_electronics/serie.svg" class="img-fluid" style="background-color: white;width: 200px;" %}
 
 - Impedance généralisée équivalente :
 $$
@@ -34,7 +34,7 @@ Z_{eq}=Z_1+Z_2
 $$
 
 ### Mise en parallèle
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/parallel.svg" class="img-fluid" style="background-color: white; width: 200px;" %}
+{% include figure.html path="assets/img/technical/analogue_electronics/parallel.svg" class="img-fluid" style="background-color: white; width: 200px;" %}
 
 - Impedance généralisée équivalente :
 $$
@@ -42,7 +42,7 @@ $$
 $$
 
 ### Pont diviseur
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/voltage_divider.svg" class="img-fluid" style="background-color: white; width: 200px;"%}
+{% include figure.html path="assets/img/technical/analogue_electronics/voltage_divider.svg" class="img-fluid" style="background-color: white; width: 200px;"%}
 
 - Mise en équation :
 $$
@@ -50,7 +50,7 @@ $$
 $$
 
 ### Potentiel des noeuds
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/node.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
+{% include figure.html path="assets/img/technical/analogue_electronics/node.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
 
 - Mise en équation :
 $$
@@ -59,17 +59,17 @@ $$
 
 ## Exemple
 On considère le circuit suivant :
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/RLC_LP.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
+{% include figure.html path="assets/img/technical/analogue_electronics/RLC_LP.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
 
 ### Réécriture du circuit
 
 Pour faciliter l'analyse du cicuit, on va le réécrire :
 
 1. On fait abstraction des composants spécifiques et considère juste un ensemble de dipôle
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/RLC_LP_Z.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
+{% include figure.html path="assets/img/technical/analogue_electronics/RLC_LP_Z.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
 
 2. Dès que des dipôles sont en séries ou en parallèles et que cela n'entraine pas la disparition des tensions que l'on veut analyser, on crée une ou des résistances équivalentes là où cela est possible.
-{% include figure.html path="assets/img/cheatsheets/analogue_electronics/RLC_LP_serie.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
+{% include figure.html path="assets/img/technical/analogue_electronics/RLC_LP_serie.svg" class="img-fluid" style="background-color: white; width: 300px;"%}
 
 ### Mise en équation du circuit
 - Pour commencer, on calcul la ou les résistances équivalentes
