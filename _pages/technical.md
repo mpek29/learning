@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Techniques
+title: Technique
 permalink: /technical/
 description: Voici une liste de cours autour de la thématique de la technique !
 nav: true
