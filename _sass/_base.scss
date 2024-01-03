@@ -456,29 +456,29 @@ footer.sticky-bottom {
  border-bottom-color:var(--global-theme-color);
  text-decoration:none
 }
-.projects a {
+.technical a {
  text-decoration:none
 }
-.projects a:hover .card-title {
+.technical a:hover .card-title {
  color:var(--global-theme-color)
 }
-.projects .card img {
+.technical .card img {
  width:100%
 }
-.projects .card-item {
+.technical .card-item {
  width:auto;
  margin-bottom:10px
 }
-.projects .card-item .row {
+.technical .card-item .row {
  display:flex;
  align-items:center
 }
-.projects .grid-sizer,
-.projects .grid-item {
+.technical .grid-sizer,
+.technical .grid-item {
  width:250px;
  margin-bottom:10px
 }
-.projects h2.category {
+.technical h2.category {
  color: var(--global-text-color);
  border-bottom:1px solid var(--global-divider-color);
  padding-top:0.5rem;
