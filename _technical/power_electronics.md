@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Electronique de puissance
-importance: 5
+category: Électronique
+importance: 2
 ---
 Coming soon

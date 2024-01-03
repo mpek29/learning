@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Electronique analogique
-importance: 2
+category: Électronique
+importance: 1
 ---
 
 ## Dipôles de Base

@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: PASCO
+first_name: Learning
 middle_name: 
-last_name: Florian
+last_name: by FP
 email:
 description: >
   Bienvenue sur ce petit site dédié à l'archivage et au partage des divers connaissances que j'ai accumulée.
@@ -110,9 +110,9 @@ collections:
   tutorials:
     output: true
     permalink: /tutorials/:path/
-  cheatsheets:
+  technical:
     output: true
-    permalink: /cheatsheets/:path/
+    permalink: /technical/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -229,7 +229,7 @@ enable_tooltips:            false  # enables automatic tooltip links generated
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_technical_categories:  true # enables categorization of technical into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position

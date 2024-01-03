@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Python 3
+category: Informatique
 importance: 1
 ---
 

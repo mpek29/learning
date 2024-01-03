@@ -84,14 +84,14 @@ body.sticky-bottom-footer {
   margin: auto;
   display: flex;
 }
-.ul-cheatsheet {
+.ul-technical {
  padding-left: 0px;
 }
-.li-cheatsheet {
+.li-technical {
  list-style:none;
  margin-bottom:.2em
 }
-li[class^="li-cheatsheet"]>a {
+li[class^="li-technical"]>a {
  list-style:none;
  font-size:1.1em
 }
@@ -486,29 +486,29 @@ footer.sticky-bottom {
  margin-bottom:1rem;
  text-align:right
 }
-.cheatsheets a {
+.technicals a {
  text-decoration:none
 }
-.cheatsheets a:hover .card-title {
+.technicals a:hover .card-title {
  color:var(--global-theme-color)
 }
-.cheatsheets .card img {
+.technicals .card img {
  width:100%
 }
-.cheatsheets .card-item {
+.technicals .card-item {
  width:auto;
  margin-bottom:10px
 }
-.cheatsheets .card-item .row {
+.technicals .card-item .row {
  display:flex;
  align-items:center
 }
-.cheatsheets .grid-sizer,
-.cheatsheets .grid-item {
+.technicals .grid-sizer,
+.technicals .grid-item {
  width:250px;
  margin-bottom:10px
 }
-.cheatsheets h2.category {
+.technicals h2.category {
  color:var(--global-divider-color);
  border-bottom:1px solid var(--global-divider-color);
  padding-top:0.5rem;
