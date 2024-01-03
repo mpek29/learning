@@ -113,6 +113,9 @@ collections:
   technical:
     output: true
     permalink: /technical/:path/
+  mental:
+    output: true
+    permalink: /mental/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
