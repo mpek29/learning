@@ -18,7 +18,7 @@ Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié 
 
 Les supports exposés ici sont liés aux thématiques suivantes :
 - la santé mentale (psychologie, phylosophie et méditation)
-- la santé physique (sport + alimentation)
-- la technique (sciences appliquées + mécanique automobile)
+- la santé physique (sport et alimentation)
+- la technique (informatique, électronique, mécanique, maintenance automobile)
 - la gestion financière
-- des modes de vie/lifestyle (minimalisme, zéro déchet, auto suffisance)
+- des modes de vie/lifestyle (minimalisme, zéro déchet et auto suffisance)
