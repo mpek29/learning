@@ -116,9 +116,6 @@ collections:
   technical2:
     output: true
     permalink: /technical2/:path/
-  mental:
-    output: true
-    permalink: /mental/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -237,7 +234,6 @@ enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_technical_categories:  true # enables categorization of technical into
 enable_technical2_categories:  true # enables categorization of technical into
-enable_mental_categories:  true # enables categorization of mental into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
