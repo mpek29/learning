@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rapport au passé
-category: Psychologie/Phylosophie Adlérienne
+category: Psychologie/Phylosophie adlérienne
 importance: 2
 ---
 
