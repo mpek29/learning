@@ -24,7 +24,7 @@ Dans quel but le phénomène existe?
 - (Sens large) Vision du monde et de la vie -> Vision = filtre/aspect subjectif
 - La façon dont devrait être notre vie selon nous.
 
-## Fonctions
+## Conclusion
 D'après la psychologie adlérienne, le rapport au passé ne doit pas amener l'individu à s'empêcher d'agir dans l'idée que le passé aurait tel ou tel impact sur le présent. Raisonner ainsi serait en réalité se servir de son passé comme argument pour fuir le présent dans le but de ne pas avoir d'effort à faire, de ne pas chercher à avoir du courage.
 
 On peut, par contre, affirmer que le passé a une grande importance sur la formation de la personnalité, mais ne la détermine pas. Le sens que l'on va donner à celui-ci va nous forger.
