@@ -113,9 +113,9 @@ collections:
   technical:
     output: true
     permalink: /technical/:path/
-  psycho_philo:
+  mental:
     output: true
-    permalink: /psycho_philo/:path/
+    permalink: /mental/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -233,7 +233,7 @@ enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_technical_categories:  true # enables categorization of technical into
-enable_psycho_philo_categories:  true # enables categorization of psycho_philo into
+enable_mental_categories:  true # enables categorization of mental into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
