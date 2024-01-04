@@ -8,15 +8,15 @@ importance: 2
 ## Introduction
 La psychologie adlérienne est une psychologie adoptant une approche téléologique de l'individu en opposition à l'approche étiologique et déterministe développée par Freud notamment.
 
-## Étiologie/Déterminisme (Pourquoi le phénomène existe?)
+## Étiologie/Déterminisme
+Pourquoi le phénomène existe?
 L'étiologie est l'idée d'après laquelle le passé déterminerait le présent.
 
 Un des principales travers qui lui est imputé est qu'elle servirait à déculpabiliser l'individu et à nier sa responsabilité. -> Adler pense qu'en réalité, on se sert de nos traumas pour nourrir un but.
 
-## Téléologie (Dans quel but le phénomène existe?)
+## Téléologie
+Dans quel but le phénomène existe?
 Étude de la finalité/du but d'un phénomène.
-
-<br>
 
 ## Notion de "Style de vie"
 - Le style de vie est la manière dont on a tendance à penser et à agir. Il est 100 % choisis.
