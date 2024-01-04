@@ -28,10 +28,10 @@ display_categories: [Psychologie/Philosophie adlérienne]
 
 {%- else -%}
 <!-- Display psycho_philo without categories -->
-  {%- assign sorted_technical = site.psycho_philo | sort: "importance" -%}
+  {%- assign sorted_psycho_philo = site.psycho_philo | sort: "importance" -%}
   <!-- Generate cards for each project -->
   <div class="grid">
-    {%- for project in sorted_technical -%}
+    {%- for project in sorted_psycho_philo -%}
       {% include psycho_philo.html %}
     {%- endfor %}
   </div>
