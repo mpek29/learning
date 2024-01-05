@@ -4,7 +4,7 @@ title: Tutoriels
 permalink: /tutorials/
 description: Voici une liste de tutoriels très utiles !
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <!-- pages/tutorials.md -->

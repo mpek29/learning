@@ -1,7 +1,7 @@
 ---
 layout: page
 title: test
-category: Budgeting
+category: Budgétisation
 importance: 1
 ---
 

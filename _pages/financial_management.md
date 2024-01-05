@@ -4,8 +4,8 @@ title: Gestion financière
 permalink: /financial_management/
 description: Voici une liste de cours autour de la gestion financière
 nav: true
-nav_order: 3
-display_categories: [Budgeting, Investissement]
+nav_order: 5
+display_categories: [Budgétisation, Investissement]
 ---
 
 <!-- pages/financial_management.md -->
