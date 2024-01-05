@@ -10,5 +10,3 @@ display_categories: [Sport, Alimentation]
 
 <!-- pages/physical.md -->
 {% assign current_page = site.physical %}
-
-{% include course.html %}

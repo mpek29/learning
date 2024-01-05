@@ -10,5 +10,3 @@ display_categories: [Budgétisation, Investissement]
 
 <!-- pages/financial.md -->
 {% assign current_page = site.financial %}
-
-{% include course.html %}
