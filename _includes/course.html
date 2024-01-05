@@ -1,2 +1,20 @@
 <!-- _includes/course.html -->
-<li class="li-course"><a href="{{ course.url | relative_url }}">{{ course.title }}</a></li>
+<div class="course">
+{%- if page.display_categories %}
+  <!-- Display categorized page -->
+  {%- for category in page.display_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_page = current_page | where: "category", category -%}
+  {%- assign sorted_page = categorized_financial | sort: "importance" %}
+  <div class="course">
+    <ul class="ul-course">
+      {%- for course in sorted_financial -%}
+        <li class="li-course">
+            <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+{%- endif -%}
+</div>
