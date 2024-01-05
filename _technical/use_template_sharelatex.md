@@ -14,7 +14,7 @@ Ici, je vous proposerais de faire usage de l'outil [ShareLaTex](https://latex.en
 
 Il vous suffira de vous connecter sur ces différents services (l'usage du [ShareLaTex](https://latex.enib.fr/project) de l'ENIB nécessite une demande d'accès auprès du SNUM via un mail).
 
-L'avantage de ces éditeurs résident dans leurs présences en ligne qui facilite le travail de groupe. Si vous souhaitez plutôt travailler de façon individuelle, je vous recommande le tutoriel qui est d'écrit  [ici](https://vincentchoqueuse.github.io/personal_website/tutorials/latex_document.html).
+L'avantage de ces éditeurs résident dans leurs présences en ligne qui facilite le travail de groupe. Si vous souhaitez plutôt travailler de façon individuelle, je vous recommande le tutoriel qui est d'écrit  [ici](https://vincentchoqueuse.github.io/personal_website/technical/latex_document.html).
 
 ## Templates
 
@@ -24,10 +24,10 @@ J'ai créé au fil des années mon propre template qui me sert de base pour tous
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="max-width: 30%;display: block;margin: auto;">
-        {% include figure.html path="assets/img/tutorials/use_template_sharelatex/0.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/technical/use_template_sharelatex/0.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0" style="max-width: 30%;display: block;margin: auto;">
-        {% include figure.html path="assets/img/tutorials/use_template_sharelatex/1.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/technical/use_template_sharelatex/1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -35,10 +35,10 @@ Et c'est ainsi que j'ai créé ce template <https://github.com/mpek29/mpek29-lat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="max-width: 30%;display: block;margin: auto;">
-        {% include figure.html path="assets/img/tutorials/use_template_sharelatex/2.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/technical/use_template_sharelatex/2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0" style="max-width: 30%;display: block;margin: auto;">
-        {% include figure.html path="assets/img/tutorials/use_template_sharelatex/3.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/technical/use_template_sharelatex/3.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

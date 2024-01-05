@@ -20,7 +20,7 @@ Attention, il est à noter que cette extension de Thunderbird ne supporte pas le
   <li>Créer dans un tableur les différentes colonnes correspondant aux champs utiles pour le mail. Chaque colonne doit avoir un en-tête nommé ; nom, prenom, message, etc … Ces noms de colonnes ne doivent pas contenir d'espaces ou de caractères accentués. Compléter ensuite chaque colonnes avec les données personnalisés de chaque destinataires du mailing.
     <div class="row">
       <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/mailmerge/mailmerge-1_1.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/technical/mailmerge/mailmerge-1_1.png" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
   </li>
@@ -41,7 +41,7 @@ Installer le module complémentaire [mailmerge](https://addons.mozilla.org/fr/th
       <li>Rédiger le brouillon du message, en insérant tous les champs utiles du tableur dans le corps du message, utiliser les doubles-accolades.
         <div class="row">
           <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/tutorials/mailmerge/mailmerge-1_2.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/technical/mailmerge/mailmerge-1_2.png" class="img-fluid rounded z-depth-1" %}
           </div>
         </div>
       </li>
@@ -57,7 +57,7 @@ Installer le module complémentaire [mailmerge](https://addons.mozilla.org/fr/th
         En choisissant comme Mode  de Livraison: Envoyer plus tard ; les messages seront stockés dans « Messages en attente ». Cela permettra de vérifier l'exactitude des données. L'envoi définitif devra se faire en choisissant : Fichier > Envoyer les messages en attente
         <div class="row">
           <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/tutorials/mailmerge/mailmerge.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/technical/mailmerge/mailmerge.png" class="img-fluid rounded z-depth-1" %}
           </div>
         </div>
       </li>
