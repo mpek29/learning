@@ -116,9 +116,9 @@ collections:
   technical:
     output: true
     permalink: /technical/:path/
-  financial_management:
+  financial:
     output: true
-    permalink: /financial_management/:path/
+    permalink: /financial/:path/
   tutorials:
     output: true
     permalink: /tutorials/:path/
@@ -223,7 +223,6 @@ jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
 
-
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
@@ -242,7 +241,7 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_psycho_philo_categories:  true # enables categorization of psycho_philo into
 enable_physical_categories:  true # enables categorization of physical into
 enable_technical_categories:  true # enables categorization of technical into
-enable_financial_management_categories:  true # enables categorization of financial_management into
+enable_financial_categories:  true # enables categorization of financial into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
