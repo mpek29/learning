@@ -9,7 +9,7 @@ display_categories: [Psychologie/Phylosophie adlérienne]
 ---
 
 <!-- pages/psycho_philo.md -->
-<div class="technical">
+<div class="course">
 {%- if site.enable_psycho_philo_categories and page.display_categories %}
   <!-- Display categorized psycho_philo -->
   {%- for category in page.display_categories %}
@@ -17,23 +17,13 @@ display_categories: [Psychologie/Phylosophie adlérienne]
   {%- assign categorized_psycho_philo = site.psycho_philo | where: "category", category -%}
   {%- assign sorted_psycho_philo = categorized_psycho_philo | sort: "importance" %}
   <!-- Generate cards for each project -->
-  <div class="technical">
-    <ul class="ul-psycho_philo">
-      {%- for psycho_philo in sorted_psycho_philo -%}
-        {% include psycho_philo.html %}
+  <div class="course">
+    <ul class="ul-course">
+      {%- for course in sorted_psycho_philo -%}
+        {% include course.html %}
       {%- endfor %}
     </ul>
   </div>
   {% endfor %}
-
-{%- else -%}
-<!-- Display psycho_philo without categories -->
-  {%- assign sorted_psycho_philo = site.psycho_philo | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  <div class="grid">
-    {%- for project in sorted_psycho_philo -%}
-      {% include psycho_philo.html %}
-    {%- endfor %}
-  </div>
 {%- endif -%}
 </div>

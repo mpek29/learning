@@ -9,31 +9,21 @@ display_categories: [Informatique, Électronique, Mécanique, Maintenance automo
 ---
 
 <!-- pages/technical.md -->
-<div class="technical">
+<div class="course">
 {%- if site.enable_technical_categories and page.display_categories %}
   <!-- Display categorized technical -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h2 class="course">{{ category }}</h2>
   {%- assign categorized_technical = site.technical | where: "category", category -%}
   {%- assign sorted_technical = categorized_technical | sort: "importance" %}
   <!-- Generate cards for each project -->
-  <div class="technical">
-    <ul class="ul-technical">
-      {%- for technical in sorted_technical -%}
-        {% include technical.html %}
+  <div class="course">
+    <ul class="ul-course">
+      {%- for course in sorted_technical -%}
+        {% include course.html %}
       {%- endfor %}
     </ul>
   </div>
   {% endfor %}
-
-{%- else -%}
-<!-- Display technical without categories -->
-  {%- assign sorted_technical = site.technical | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  <div class="grid">
-    {%- for project in sorted_technical -%}
-      {% include technical.html %}
-    {%- endfor %}
-  </div>
 {%- endif -%}
 </div>

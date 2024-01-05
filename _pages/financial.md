@@ -9,7 +9,7 @@ display_categories: [Budgétisation, Investissement]
 ---
 
 <!-- pages/financial.md -->
-<div class="technical">
+<div class="course">
 {%- if site.enable_financial_categories and page.display_categories %}
   <!-- Display categorized financial -->
   {%- for category in page.display_categories %}
@@ -17,23 +17,13 @@ display_categories: [Budgétisation, Investissement]
   {%- assign categorized_financial = site.financial | where: "category", category -%}
   {%- assign sorted_financial = categorized_financial | sort: "importance" %}
   <!-- Generate cards for each project -->
-  <div class="technical">
-    <ul class="ul-financial">
-      {%- for financial in sorted_financial -%}
-        {% include financial.html %}
+  <div class="course">
+    <ul class="ul-course">
+      {%- for course in sorted_financial -%}
+        {% include course.html %}
       {%- endfor %}
     </ul>
   </div>
   {% endfor %}
-
-{%- else -%}
-<!-- Display financial without categories -->
-  {%- assign sorted_financial = site.financial | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  <div class="grid">
-    {%- for project in sorted_financial -%}
-      {% include financial.html %}
-    {%- endfor %}
-  </div>
 {%- endif -%}
 </div>

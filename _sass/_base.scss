@@ -84,25 +84,14 @@ body.sticky-bottom-footer {
   margin: auto;
   display: flex;
 }
-.ul-technical {
+.ul-course {
  padding-left: 0px;
 }
-.li-technical {
+.li-course {
  list-style:none;
  margin-bottom:.2em
 }
-li[class^="li-technical"]>a {
- list-style:none;
- font-size:1.1em
-}
-.ul-tuto {
- padding-left: 0px;
-}
-.li-tuto {
- list-style:none;
- margin-bottom:.2em
-}
-li[class^="li-tuto"]>a {
+li[class^="li-course"]>a {
  list-style:none;
  font-size:1.1em
 }
@@ -456,29 +445,29 @@ footer.sticky-bottom {
  border-bottom-color:var(--global-theme-color);
  text-decoration:none
 }
-.technical a {
+.course a {
  text-decoration:none
 }
-.technical a:hover .card-title {
+.course a:hover .card-title {
  color:var(--global-theme-color)
 }
-.technical .card img {
+.course .card img {
  width:100%
 }
-.technical .card-item {
+.course .card-item {
  width:auto;
  margin-bottom:10px
 }
-.technical .card-item .row {
+.course .card-item .row {
  display:flex;
  align-items:center
 }
-.technical .grid-sizer,
-.technical .grid-item {
+.course .grid-sizer,
+.course .grid-item {
  width:250px;
  margin-bottom:10px
 }
-.technical h2.category {
+.course h2.category {
  color: var(--global-text-color);
  border-bottom:1px solid var(--global-divider-color);
  padding-top:0.5rem;
@@ -486,59 +475,29 @@ footer.sticky-bottom {
  margin-bottom:1rem;
  text-align:right
 }
-.technicals a {
+.courses a {
  text-decoration:none
 }
-.technicals a:hover .card-title {
+.courses a:hover .card-title {
  color:var(--global-theme-color)
 }
-.technicals .card img {
+.courses .card img {
  width:100%
 }
-.technicals .card-item {
+.courses .card-item {
  width:auto;
  margin-bottom:10px
 }
-.technicals .card-item .row {
+.courses .card-item .row {
  display:flex;
  align-items:center
 }
-.technicals .grid-sizer,
-.technicals .grid-item {
+.courses .grid-sizer,
+.courses .grid-item {
  width:250px;
  margin-bottom:10px
 }
-.technicals h2.category {
- color:var(--global-divider-color);
- border-bottom:1px solid var(--global-divider-color);
- padding-top:0.5rem;
- margin-top:2rem;
- margin-bottom:1rem;
- text-align:right
-}
-.tutorials a {
- text-decoration:none
-}
-.tutorials a:hover .card-title {
- color:var(--global-theme-color)
-}
-.tutorials .card img {
- width:100%
-}
-.tutorials .card-item {
- width:auto;
- margin-bottom:10px
-}
-.tutorials .card-item .row {
- display:flex;
- align-items:center
-}
-.tutorials .grid-sizer,
-.tutorials .grid-item {
- width:250px;
- margin-bottom:10px
-}
-.tutorials h2.category {
+.courses h2.category {
  color:var(--global-divider-color);
  border-bottom:1px solid var(--global-divider-color);
  padding-top:0.5rem;
