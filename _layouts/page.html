@@ -14,7 +14,7 @@ layout: default
             <!-- Display categorized course -->
               {%- for category in page.display_categories %}
                 <h2 class="category">{{ category }}</h2>
-                {%- assign categorized_course = site.course | where: "category", category -%}
+                {%- assign categorized_course = page.test | where: "category", category -%}
                 {%- assign sorted_course = categorized_course | sort: "importance" %}
                 <!-- Generate cards for each project -->
                 <div class="course">

@@ -6,4 +6,5 @@ description: Voici une liste de cours autour de la thématique de la technique !
 nav: true
 nav_order: 4
 display_categories: [Informatique, Électronique, Mécanique, Maintenance automobile]
+test: site.technical
 ---
