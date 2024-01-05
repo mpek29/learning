@@ -10,21 +10,22 @@ layout: default
 
           <article>
             <div class="course">
+            {%- if page.display_categories %}
             <!-- Display categorized course -->
-            {%- for category in page.display_categories %}
-              <h2 class="category">{{ category }}</h2>
-              {%- assign categorized_course = site.course | where: "category", category -%}
-              {%- assign sorted_course = categorized_course | sort: "importance" %}
-              <!-- Generate cards for each project -->
-              <div class="course">
-                <ul class="ul-course">
-                  {%- for course in sorted_course -%}
-                    {% include course.html %}
-                  {%- endfor %}
-                </ul>
-              </div>
+              {%- for category in page.display_categories %}
+                <h2 class="category">{{ category }}</h2>
+                {%- assign categorized_course = site.course | where: "category", category -%}
+                {%- assign sorted_course = categorized_course | sort: "importance" %}
+                <!-- Generate cards for each project -->
+                <div class="course">
+                  <ul class="ul-course">
+                    {%- for course in sorted_course -%}
+                      {% include course.html %}
+                    {%- endfor %}
+                  </ul>
+                </div>
               {% endfor %}
+            {%- endif -%}
             </div>
           </article>
-
         </div>
