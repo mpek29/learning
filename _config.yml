@@ -107,15 +107,19 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 collections:
-  tutorials:
-    output: true
-    permalink: /tutorials/:path/
-  technical:
-    output: true
-    permalink: /technical/:path/
   psycho_philo:
     output: true
     permalink: /psycho_philo/:path/
+  physical:
+    output: true
+    permalink: /physical/:path/
+  technical:
+    output: true
+    permalink: /technical/:path/
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -232,8 +236,9 @@ enable_tooltips:            false  # enables automatic tooltip links generated
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_technical_categories:  true # enables categorization of technical into
 enable_psycho_philo_categories:  true # enables categorization of technical into
+enable_physical_categories:  true # enables categorization of technical into
+enable_technical_categories:  true # enables categorization of technical into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
