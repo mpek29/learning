@@ -10,3 +10,4 @@ display_categories: [Minimalisme, Zéro-déchet, Auto-suffisance]
 
 <!-- pages/lifestyle.md -->
 {% assign current_page = site.lifestyle %}
+{% include course.html %}

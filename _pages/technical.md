@@ -10,3 +10,4 @@ display_categories: [Informatique, Électronique, Mécanique, Maintenance automo
 
 <!-- pages/technical.md -->
 {% assign current_page = site.technical %}
+{% include course.html %}

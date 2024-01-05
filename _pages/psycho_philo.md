@@ -10,3 +10,4 @@ display_categories: [Psychologie/Phylosophie adlérienne]
 
 <!-- pages/psycho_philo.md -->
 {% assign current_page = site.psycho_philo %}
+{% include course.html %}
