@@ -1,7 +1,7 @@
 ---
 layout: page
 title: test
-category: Budgétisation
+category: Minimalisme
 importance: 1
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Santé physique
+title: Lifestyle
 permalink: /lifestyle/
 description: Voici une liste de cours autour de la santé physique
 nav: true
-nav_order: 3
-display_categories: [Sport, Alimentation]
+nav_order: 6
+display_categories: [Minimalisme, Zéro-déchet, Auto-suffisance]
 ---
 
 <!-- pages/lifestyle.md -->
