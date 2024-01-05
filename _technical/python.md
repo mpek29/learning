@@ -2,7 +2,7 @@
 layout: page
 title: Python 3
 category: Informatique
-importance: 1
+importance: 2
 ---
 
 ## Notion de variable

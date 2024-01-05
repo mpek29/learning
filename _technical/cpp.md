@@ -2,7 +2,7 @@
 layout: page
 title: C++
 category: Informatique
-importance: 3
+importance: 4
 ---
 
 ## Points essentielle

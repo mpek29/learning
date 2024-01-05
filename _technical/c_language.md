@@ -2,6 +2,6 @@
 layout: page
 title: Language C
 category: Informatique
-importance: 2
+importance: 3
 ---
 Coming soon

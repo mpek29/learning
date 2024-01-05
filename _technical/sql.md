@@ -2,6 +2,6 @@
 layout: page
 title: SQL
 category: Informatique
-importance: 5
+importance: 8
 ---
 Coming soon

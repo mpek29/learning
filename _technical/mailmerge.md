@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Envoi massif et personnalisé depuis Thunderbird
-importance: 2
+category: Informatique
+importance: 7
 ---
 Si vous souhaitez réaliser un envoi massif et personnalisé de mail depuis Thunderbird, vous pouvez utiliser le module Mail Merge. Sur cette page, je vais vous décrire comment faire usage de ce module.
 
