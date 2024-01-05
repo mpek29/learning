@@ -1,10 +1,39 @@
 ---
 layout: page
-title: LifeStyle
+title: Santé physique
 permalink: /lifestyle/
-description: Voici une liste de cours autour de différents modes de vie
+description: Voici une liste de cours autour de la santé physique
 nav: true
-nav_order: 5
-display_categories: [Budgétisation, Investissement]
-test: site.lifestyle
+nav_order: 3
+display_categories: [Sport, Alimentation]
 ---
+
+<!-- pages/lifestyle.md -->
+<div class="technical">
+{%- if site.enable_lifestyle_categories and page.display_categories %}
+  <!-- Display categorized lifestyle -->
+  {%- for category in page.display_categories %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign categorized_lifestyle = site.lifestyle | where: "category", category -%}
+  {%- assign sorted_lifestyle = categorized_lifestyle | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  <div class="technical">
+    <ul class="ul-lifestyle">
+      {%- for lifestyle in sorted_lifestyle -%}
+        {% include lifestyle.html %}
+      {%- endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+
+{%- else -%}
+<!-- Display lifestyle without categories -->
+  {%- assign sorted_lifestyle = site.lifestyle | sort: "importance" -%}
+  <!-- Generate cards for each project -->
+  <div class="grid">
+    {%- for project in sorted_lifestyle -%}
+      {% include lifestyle.html %}
+    {%- endfor %}
+  </div>
+{%- endif -%}
+</div>
