@@ -5,10 +5,10 @@
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_page = current_page | where: "category", category -%}
-  {%- assign sorted_page = categorized_financial | sort: "importance" %}
+  {%- assign sorted_page = categorized_page | sort: "importance" %}
   <div class="course">
     <ul class="ul-course">
-      {%- for course in sorted_financial -%}
+      {%- for course in sorted_page -%}
         <li class="li-course">
             <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
         </li>
