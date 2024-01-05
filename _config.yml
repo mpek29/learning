@@ -119,6 +119,9 @@ collections:
   financial:
     output: true
     permalink: /financial/:path/
+  lifestyle:
+    output: true
+    permalink: /lifestyle/:path/
 
 
 # -----------------------------------------------------------------------------
@@ -234,12 +237,6 @@ enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_psycho_philo_categories:  true # enables categorization of psycho_philo into
-enable_physical_categories:  true # enables categorization of physical into
-enable_technical_categories:  true # enables categorization of technical into
-enable_financial_categories:  true # enables categorization of financial into
-                                   # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
