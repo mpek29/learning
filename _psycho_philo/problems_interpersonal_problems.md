@@ -47,7 +47,7 @@ La mise en compétition à plusieurs effets notable négatifs :
 - Elle amène les gens à se considérer comme concurrents et/ou ennemies.
 - Le bonheur des autres devient une défaite.
 
-De même, le faite d'en sortir à plusieurs effets notable positif:
+De même, le faite d'en sortir a plusieurs effets notable positif:
 - On peut se réjouir du bonheur d'autrui de tout son cœur.
 - On peut contribuer activement au bonheur d'autrui.
 - L'individu peut considérer les autres comme camarades et non pas comme concurrents et/ou ennemies.
