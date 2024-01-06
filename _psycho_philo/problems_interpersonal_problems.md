@@ -16,6 +16,7 @@ Le sentiment de solitude est un profond sentiment d'être exclu du cercle lorsqu
 
 ### Sentiment d'infériorité
 Le sentiment d'infériorité est un sentiment lié au jugement de valeur, fondée sur un contexte social, que l'on porte sur soi-même. Il peut être décrit comme une comparaison de soi-même à l'idéal que l'on a de soi-même.
+
 Il se caractérise en quelques points :
 - Il se base sur une interprétation subjective de nous plutôt que sur des faits objectifs.
 - Il touche tout le monde.
@@ -23,10 +24,12 @@ Il se caractérise en quelques points :
 
 ### Poursuite de la supériorité
 La poursuite de la supériorité ou poursuite d'un état idéal est une action nourrie par l'espoir de s'améliorer afin de réduire le sentiment d'infériorité ressenti par l'individu.
+
 Attention : la poursuite de la supériorité est différente d'un désir d'être supérieure aux autres. Son but est de rendre l'individu plus proche de l'idéal qu'il a de lui-même, mais pas du tout de pouvoir se qualifier de supérieur.
 
 ### Complexe d'infériorité
 Complexe : état mental anormal (idée + émotion compliquée).
+
 Certains individus peuvent développer un complexe d'infériorité, c'est-à-dire, un état, dans lequel on va utiliser le sentiment d'infériorité comme excuse non pas comme rampe de lancement.
 
 ### Complexe de supériorité
@@ -38,6 +41,7 @@ Faire usage d'un masque d'autorité est le faite de se cacher derrière une pers
 ## Rapport à l'autre
 ### Compétition
 Une erreur courante est de vouloir s'accorder de la valeur en devenant supérieur à l'autre, pour cela, on rentre en compétition avec celui-ci afin de déterminer qui sera supérieur à l'autre.
+
 La mise en compétition à plusieurs effets notable négatifs :
 - Elle amène les gens à se considérer comme concurrents et/ou ennemies.
 - Le bonheur des autres devient une défaite.
@@ -73,6 +77,7 @@ Il existe trois tâches de types différents, elles sont liées aux 3 catégorie
 
 #### Tâche de travail
 La tâche de travail est une tâche qui s'accomplit à plusieurs.
+
 Elle se caractérise en quelques points :
 - Elle est celle qui présente le moins de difficulté : + de distance, - de profondeur
 - Elle vise un objectif commun : obtenir de bons résultats
@@ -80,6 +85,7 @@ Elle se caractérise en quelques points :
 
 #### Tâche d'amitié
 La tâche d'amitié est une tâche qui se caractérise par le fait d'être loin du travail et de ne comporter aucune pression.
+
 Elle se caractérise en quelques points :
 - Elle est difficile à amorcer et à approfondir.
 - Elle n'est pas liée à une relation de travail.
