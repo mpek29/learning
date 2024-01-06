@@ -22,7 +22,7 @@ Il se caractérise en quelques points :
 - Si celui-ci est bien utilisé, il peut être une rampe de lancement.
 
 ### Poursuite de la supériorité
-La poursuite de la supériorité ou poursuite d'un état idéal est action nourrie par l'espoir de s'améliorer afin de réduire le sentiment d'infériorité ressenti par l'individu.
+La poursuite de la supériorité ou poursuite d'un état idéal est une action nourrie par l'espoir de s'améliorer afin de réduire le sentiment d'infériorité ressenti par l'individu.
 Attention : la poursuite de la supériorité est différente d'un désir d'être supérieure aux autres. Son but est de rendre l'individu plus proche de l'idéal qu'il a de lui-même, mais pas du tout de pouvoir se qualifier de supérieur.
 
 ### Complexe d'infériorité
