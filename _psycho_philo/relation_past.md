@@ -34,6 +34,7 @@ Il est essentiel de retenir que nous ne sommes pas assujettis au passé, mais qu
 "L'important ce n'est pas ce dont on a été doté à la naissance, mais l'utilisation que l'on fait de ce bagage." 
 
 étiologie Freudienne -> "psychologie de la possession" -> déterminisme
+
 psychologie adlérienne -> psychologie de l'utilisation -> on prends les décisions
 
 ## Source
