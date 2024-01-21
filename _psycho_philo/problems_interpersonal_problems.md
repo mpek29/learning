@@ -9,7 +9,7 @@ importance: 3
 La psychologie adlérienne est une psychologie dans laquelle on considère que les problèmes que l'individu rencontre au cours de sa vie sont des problèmes de relations interpersonnelles. Par ce prisme, tous les problèmes sont donc considérés comme ayant leur source dans les interactions sociales de l'individu. Une première approche pour régler ce problème pourrait être de supprimer les relations interpersonnelles et d'ainsi supprimer les problèmes, mais cela n'est pas possible. Il est impossible d'être seul dans l'univers. Ce chapitre va donc se concentrer sur le fait de surmonter ces problèmes de relations interpersonnelles afin d'atteindre le bonheur.
 
 ## Rapport à soi
-Avant de parler de la relation à l'autre en elle-même, il peut être intéressant de présenter quelques symptômes dont peut souffrir l'individu dans le cadre ses relations interpersonnelles.
+Avant de parler de la relation à l'autre en elle-même, il peut être intéressant de présenter quelques symptômes dont peut souffrir l'individu dans le cadre de ses relations interpersonnelles.
 
 ### Solitude
 Le sentiment de solitude est un profond sentiment d'être exclu du cercle lorsqu'on est entouré par les autres, la société ou la communauté. Il touche les personnes n'ayant pas réussi à créer de relations interpersonnelles suffisamment profonde.
@@ -63,7 +63,7 @@ Voici ces clés :
 
 ## Les tâches de la vie
 ### Les 2 objectifs
-Les tâches de la vie revêtent 2 objectifs qui voici:
+Les tâches de la vie revêtent 2 objectifs que voici:
 
 #### L'objectif de comportement:
 - être autonome

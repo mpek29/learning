@@ -23,7 +23,7 @@ Le refus d'admettre le besoin de rechercher la reconnaissance des autres est un 
 Il est essentiel de comprendre que si la reconnaissance des autres est importante pour l'individu cela va le conduire à sans cesse mesurer les sentiments des autres et se faire du soucis à propos de la façon dont ils le regardent. Il va ainsi se priver de liberté et vivre une vie dicté par autruie. Cela peut nous tenter car si on délègue sa vie à l'autre, à une route bien tracée, c'est plus simple, on a moins de chance de se perdre. Mais, on ne fait pas ainsi le choix de la liberté et on finit tôt ou tard par le regretter.
 
 
-Ainsi, les autres ne vivent pas pour ta reconnaissance. Il ne faut donc pas s'énerver si il agisse indépendament de notre avis, c'est normal. De même, si les gens vivent mal que tu ne suives pas leurs désirs, c'est leurs problèmes et non pas le tiens :
+Ainsi, les autres ne vivent pas pour ta reconnaissance. Il ne faut donc pas s'énerver s'ils agissent indépendament de notre avis, c'est normal. De même, si les gens vivent mal que tu ne suives pas leurs désirs, c'est leurs problèmes et non pas le tiens :
 - les jugements à ton encontre sont du ressort des autres, pas du tiens
 - tout ce que tu peux faire, c'est choisir le meilleur chemin auquel tu croies
 
@@ -38,7 +38,7 @@ Le résultat chez l'individu ainsi éduqué est le suivant :
 - "Si personne ne va me féliciter, pas la peine de faire des bonnes actions."
 - "Si personne ne va me punir, autant faire des ations déplacées."
 
-Si système est entièrement rejeté par la psychologie adlérienne.
+Ce système est entièrement rejeté par la psychologie adlérienne.
 
 ## Méthode de la séparation des tâches
 Voici comment séparer les tâches:
@@ -65,14 +65,14 @@ Il faut conserver une distance intermédiaire avec les gens:
 Attention : Il ne faut pas confondre la séparation des tâches avec la non interférence qui est une attitude qui consiste à ne pas savoir et à ne même pas vouloir savoir ce que fait l'autre. C'est en sachant ce que fait l'autre qu'on le protège. 
 
 Il faut interférer mais pas n'importe comment, voici la méthode :
-1 - (si il n'en a pas conscience) Dire à l'autre que c'est une tâche qui lui incombe.
-2 - Faire savoir qu'on est prêt à l'aider quand il aura envie de s'occuper de sa tâche.
-3 - Si on ne nous demande jamais cette aide, ne pas se mêler de ce qui n'est pas de notre ressort.
+1. (si il n'en a pas conscience) Dire à l'autre que c'est une tâche qui lui incombe.
+2. Faire savoir qu'on est prêt à l'aider quand il aura envie de s'occuper de sa tâche.
+3. Si on ne nous demande jamais cette aide, ne pas se mêler de ce qui n'est pas de notre ressort.
 
 ## Liberté
 - Attitude qui s'apparente à l'idée de résister à l'inclination à nos impulsions (impulsion de désir de reconnaissance par exemple).
 - Il faut se libérer des relations interpersonnelles pour être libre.
-- On est libre à partir du moment que l'on accepte que quelqu'un ne nous aime pas et qu'on resiste au désir de reconnaissance.
+- On est libre à partir du moment où l'on accepte que quelqu'un ne nous aime pas et qu'on résiste au désir de reconnaissance.
 - "Avant de se soucier de ce que les autres pensent de moi, je veux me réaliser en tant qu'être."
 
 Celui qui résiste au désir de reconnaissance prouve qu'il exerce sa liberté, qu'il est un homme libre, en accord avec ses propres principes. En effet, on est un homme libre si on accepte d'avancer sans crainte de déplaire.
