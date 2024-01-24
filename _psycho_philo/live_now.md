@@ -191,5 +191,4 @@ Il a 2 genres de vie qui peuvent être menée d'après la psychologie adlérienn
 La psychologie adlérienne propose en résumé, de faire maintenant tout de suite d'après energeia tout en développant au quotidien son sentiment communautaire.
 
 ## Source
-- Ichiro Kishimi, Fumitake Koga, ''Avoir le courage de ne pas être aimé'', Paris, Guy 
-Trédaniel
+- Ichiro Kishimi, Fumitake Koga, ''Avoir le courage de ne pas être aimé'', Paris, Guy Trédaniel
