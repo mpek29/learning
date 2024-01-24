@@ -184,7 +184,7 @@ La psychologie adlérienne offre une grande boussole dont l'aiguille serait une 
 
 ## Conclusion
 Voici comment s'articule de façon imagé les notions autour du sentiment communautaire :
-{% include figure.html path="assets/img/psycho_philo/community_feeling.png" class="img-fluid" style="background-color: white;width: 200px;" %}
+{% include figure.html path="assets/img/psycho_philo/community_feeling.png" class="img-fluid" style="background-color: white;width: 450px;" %}
 
 Il a 2 genres de vie qui peuvent être menée d'après la psychologie adlérienne. L'une où on se place dans l'attente sans cesse d'un état futur (d'être arrivé en haut d'une montagne) et l'autre ou on accepte le faite de vivre l'instant présent, où on accepte que l'on ne puisse rien prévoir à l'avance et où l'on accepte de vivre les différents virages de la vie.
 
