@@ -94,7 +94,7 @@ Si jamais on a une difficulté dans une relation interpersonnelle ou si on ne vo
 Dans une relation d'amour par exemple, vois la communauté au de là de vous deux pour faire un choix ne reste pas enfermé dans cet ensemble à 2.
 
 ## Conclusion
-Le centre du monde ce n'est pas toi mais la communauté. Tout repose sur le sentiment communautaire. Pour cela, en partant de la séparation des tâches, il faut établir des relations horizontales. La clé pour établir des relations horizontales réposant sur le méthode des encouragements et l'absence d'égocentrisme.
+Le centre du monde ce n'est pas toi mais la communauté. Tout repose sur le sentiment communautaire. Pour cela, en partant de la séparation des tâches, il faut établir des relations horizontales. La clé pour établir des relations horizontales réposant sur la méthode des encouragements et l'absence d'égocentrisme.
 
 ## Source
 - Ichiro Kishimi, Fumitake Koga, ''Avoir le courage de ne pas être aimé'', Paris, Guy Trédaniel
