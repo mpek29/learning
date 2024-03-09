@@ -2,7 +2,7 @@
 layout: page
 title: Négocier, aller plus loin que le 50-50
 category: Sciences de la communication
-importance: 1
+importance: 2
 ---
 
 - De nouvelles règles
