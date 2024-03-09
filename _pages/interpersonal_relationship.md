@@ -5,7 +5,7 @@ permalink: /interpersonal_relationship/
 description: Voici une liste de cours autour des relations humaines (la psychologie, les sciences de la communication et la sociologie) !
 nav: true
 nav_order: 2
-display_categories: [Psychologie adlérienne]
+display_categories: [Psychologie adlérienne, Sciences de la communication, Sociologie]
 ---
 
 <!-- pages/interpersonal_relationship.md -->
