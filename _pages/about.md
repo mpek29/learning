@@ -17,8 +17,8 @@ Bonjour,
 Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié au partage des connaissances que j'ai accumulée au cours de ma vie ainsi qu'au partage de celles-ci à ceux qui le souhaitent. Ici, vous pourrez retrouver des cours assez synthétique afin de vous élever par le savoir.
 
 Les supports exposés ici sont liés aux thématiques suivantes :
-- relation humaine (psychologie, sciences de la communication et sociologie)
+- les relations humaines (psychologie, sciences de la communication et sociologie)
 - la santé physique (sport et alimentation)
-- la technique (informatique, électronique, mécanique, maintenance automobile)
+- la technique (informatique, électronique, mécanique et maintenance automobile)
 - la gestion financière
 - des modes de vie/lifestyle (minimalisme, zéro déchet et auto suffisance)
