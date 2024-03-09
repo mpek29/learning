@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introduction
-category: Psychologie/Phylosophie adlérienne
+category: Psychologie adlérienne
 importance: 1
 ---
 

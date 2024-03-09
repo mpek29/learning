@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rejette les tâches d'autrui
-category: Psychologie/Phylosophie adlérienne
+category: Psychologie adlérienne
 importance: 4
 ---
 

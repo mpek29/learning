@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Psycho/Philo
-permalink: /psycho_philo/
-description: Voici une liste de cours autour de la psychologie et philosophie !
+title: Relation humaine
+permalink: /interpersonal_relationship/
+description: Voici une liste de cours autour des relations humaines (la psychologie, les sciences de la communication et la sociologie) !
 nav: true
 nav_order: 2
-display_categories: [Psychologie/Phylosophie adlérienne]
+display_categories: [Psychologie adlérienne]
 ---
 
-<!-- pages/psycho_philo.md -->
-{% assign current_page = site.psycho_philo %}
+<!-- pages/interpersonal_relationship.md -->
+{% assign current_page = site.interpersonal_relationship %}
 {% include course.html %}

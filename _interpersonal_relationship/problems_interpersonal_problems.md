@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Les problèmes sont des problèmes de relations interpersonnelles
-category: Psychologie/Phylosophie adlérienne
+category: Psychologie adlérienne
 importance: 3
 ---
 

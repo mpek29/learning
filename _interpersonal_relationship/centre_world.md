@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Là où se trouve le centre du monde
-category: Psychologie/Phylosophie adlérienne
+category: Psychologie adlérienne
 importance: 5
 ---
 

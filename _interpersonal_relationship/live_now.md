@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vivre pour de bon ici et maintenant
-category: Psychologie/Phylosophie adlérienne
+category: Psychologie adlérienne
 importance: 6
 ---
 
