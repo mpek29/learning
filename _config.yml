@@ -107,9 +107,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 collections:
-  psycho_philo:
+  interpersonal_relationship:
     output: true
-    permalink: /psycho_philo/:path/
+    permalink: /interpersonal_relationship/:path/
   physical:
     output: true
     permalink: /physical/:path/
@@ -238,7 +238,7 @@ enable_tooltips:            false  # enables automatic tooltip links generated
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_psycho_philo_categories:  true # enables categorization of psycho_philo into
+enable_interpersonal_relationship_categories:  true # enables categorization of interpersonal_relationship into
 enable_physical_categories:  true # enables categorization of physical into
 enable_technical_categories:  true # enables categorization of technical into
 enable_financial_categories:  true # enables categorization of financial into
