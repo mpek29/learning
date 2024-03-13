@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Se faire des amis et être influent
+title: Nouer des relations et être influent
 category: Sciences de la communication
 importance: 1
 ---
