@@ -43,10 +43,19 @@ On ne transforme pas les autres en blessant leur amour-propre.
 Prodigons des marques de gratitude et d'encouragements.
 
 
+### Éveillez un ardent désir chez la personne que vous voulez influencer
 
-- Éveillez un ardent désir chez la personne que vous voulez influencer
+À l'image des poissons que l'on appate avec des asticots alors que ce n'est pas ce qui nous attire, pourquoi ne pas employer cette tactique à l'égard des hommes ? Il faut s'efforcer d'adapter l'appât au goût du poisson.
 
+Il faut demander à l'autre ce qu'il veut et lui montrer comment l'obtenir.
 
+Le seul façon d'influencer un homme, c'est de s'intéresser à ce qu'il aime, ce qu'il désire.
+
+"Comment puis-je l'amener à vouloir faire ce que je lui demande ?"
+
+"Le secret du succès, s'il existe, c'est la faculté de se mettre à la place de l'autre et de considérer les choses de son point de vue autant que du nôtre".
+
+Il est vraiment essentiel de considérer en toutes choses le point de vue d'autrui.
 
 ## 6 Moyens pour être sympathique
 
