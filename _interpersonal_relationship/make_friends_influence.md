@@ -21,6 +21,27 @@ Au lieu de condamner les gens,essayons de les comprendre. **Essayons de comprend
 
 
 ### Complimentez honnêtement et sincèrement
+Pour amener quelqu'un à accomplir une certaine action -> susciter chez la personne le désir d'accomplir la dite action;
+
+Un sentiment est essentiel chez l'homme et c'est le **désir d'importance**.
+
+Le pouvoir d'éveiller l'enthousiasme chez les hommes est l'un des capital les plus précieux.
+Il vaut mieux stimuler, donner aux êtres un idéal à atteindre. Il faut **être prêt à louer** et **détester gronder**
+
+Quand les choses sont bien faites **Il faut approuver sincèrement et prodiguer des compliments**.
+
+Il faut viser l'éloge sincère et non pas la simple flatterie.
+
+Une éloge sincère vise à voir les qualités de notre interlocuteur.
+
+L'éloge sincère est le miel des relations entre les hommes.
+
+"Semez les graines de la grattitude."
+
+On ne transforme pas les autres en blessant leur amour-propre.
+
+Prodigons des marques de gratitude et d'encouragements.
+
 
 
 - Éveillez un ardent désir chez la personne que vous voulez influencer
