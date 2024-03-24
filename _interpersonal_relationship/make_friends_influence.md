@@ -7,9 +7,21 @@ importance: 1
 
 ## 3 Techniques pour être influent
 
-- Ne critiquez pas, ne condamnez pas, ne vous plaigner pas
+### Ne critiquez pas, ne condamnez pas, ne vous plaigner pas
+Si l'on veut recolter du miel, rien ne sert de bousculer la ruche. Il faut avoir en tête que même les pires hommes se considèrent innocentes, il a forte à parier que les gens qui nous rencontrons chaque jour en font de même, ainsi, **la critique est inutile**.
 
-- Complimentez honnêtement et sincèrement
+Puisque l'être humain se juge innoncent quelle que soit l'énormité de sa faute si vous le critiquez, il va se mettre sur la défensive et cela va le pousser à se justifier. De plus, il a forte à parier que cela va blesser son amour-propre et provoquer une rancune chez lui.
+
+"La critique est comme un pigeon voyageur, elle revient toujours à son point de départ."
+
+Alternative: Plutôt que de chercher à corriger l'autre, commençons par nous même. Cela nous est bien plus profitable et beaucoup moins dangereux.
+Au lieu de critiquer les autres , il faut dire tout le bien que l'on sait de chacun. Il faut comprendre et pardonner même si il faut de la noblesse et de la maîtrise de soi pour cela.
+
+Au lieu de condamner les gens,essayons de les comprendre. **Essayons de comprendre le mobile de leurs actions**.
+
+
+### Complimentez honnêtement et sincèrement
+
 
 - Éveillez un ardent désir chez la personne que vous voulez influencer
 
