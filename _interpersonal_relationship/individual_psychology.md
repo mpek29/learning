@@ -199,9 +199,9 @@ Ce système est entièrement rejeté par la psychologie adlérienne.
 ### Méthode de la séparation des tâches
 Voici comment séparer les tâches:
 
-1 - Se demander "à qui incombe la tâche ?" / "Qui, au bout du compte, va subir la conséquence du choix qui est opéré ?"
-2 - Séparer sa tâche de celles des autres : Délimite jusqu'où vont tes tâches et à partir de quand elles sont du ressort d'autrui
-3 - N'interviens pas dans les tâches des autres, empêche les autres d'intervenir dans les tiennes
+1. Se demander "à qui incombe la tâche ?" / "Qui, au bout du compte, va subir la conséquence du choix qui est opéré ?"
+2. Séparer sa tâche de celles des autres : Délimite jusqu'où vont tes tâches et à partir de quand elles sont du ressort d'autrui
+3. N'interviens pas dans les tâches des autres, empêche les autres d'intervenir dans les tiennes
 
 Moins il y a de distance plus il est nécessaire de séparer consciemment les tâches.
 
