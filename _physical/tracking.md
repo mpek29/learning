@@ -19,24 +19,24 @@ Si vous êtes capable de mesurer vos progrès (ou votre absence de progrès) et 
 Personnellement, j'ai fait ce choix, qui me semblait plus commode, mais chacun ses goûts !
 Voici à quoi ressemble mon cahier :
 
-Semaine 4
-Lundi
-25/03/2024
-Dos & Biceps & Abdos
-Soulevé de terre - 40 kg x 6 x 6 x 6
-Rowing à la barre - 38 kg x 4 x 4 x 5
-Tirage vertical prise large - 9 poids x 6 x 6 x 6
-Curl à la barre - 8 kg x 4 x 4 x 3
-3 circuits abdos : 
-Crunch à la poulie : 35 kg x 12 x 10 x 11
-Relevé de jambes jusqu'à l'échec : 12 x 10 x 8
-Série de pédalage jusqu'à l'échec 
+<p align="center"><strong>Semaine 4</strong></p>
+<p align="center"><strong>Lundi</strong></p>
+<p align="center"><strong>25/03/2024</strong></p>
+<p align="center"><strong>Dos & Biceps & Abdos</strong></p>
+<p align="center"><strong>Soulevé de terre - 40kg x 6 x 6 x 6</strong></p>
+<p align="center"><strong>Rowing à la barre - 38kg x 4 x 4 x 5</strong></p>
+<p align="center"><strong>Tirage vertical prise large - 9poids x 6 x 6 x 6</strong></p>
+<p align="center"><strong>Curl à la barre - 8kg x 4 x 4 x 3</strong></p>
+<p align="center"><strong>3 circuits abdos : </strong></p>
+<p align="center"><strong>Crunch à la poulie : 35kg x 12 x 10 x 11</strong></p>
+<p align="center"><strong>Relevé de jambes jusqu'à l'échec: 12 x 10 x 8</strong></p>
+<p align="center"><strong>Série de pédalage jusqu'à l'échec </strong></p>
 
 ## Poids
 Veillez à vous peser une fois par semaine, le même jour, le matin, sans habits, après un passage aux toilettes et à jeun.
 Puis noter votre poids à droite du numéro de la semaine que vous débutez.
 Dans mon cas, je note :
-Semaine 4 (86 kg) 
+<p align="center"><strong>Semaine 4 (86kg) </strong></p>
 
 ## Tirer des conclusions
 Le fait de faire un suivi récurrent de vote avancement vous permettra de vous remettre dans les rails. Si quelque chose ne marche pas, gardez en tête que cela peut s'expliquer généralement de 3 façons différentes :
