@@ -14,7 +14,7 @@ Si vous êtes capable de mesurer vos progrès (ou votre absence de progrès) et 
 3. (celle que j'ai choisie) Utiliser un bon vieux cahier
 
 ## Le cahier
-## Exos
+### Exos
 
 Personnellement, j'ai fait ce choix, qui me semblait plus commode, mais chacun ses goûts !
 Voici à quoi ressemble mon cahier :
@@ -32,7 +32,7 @@ Voici à quoi ressemble mon cahier :
 <p align="center"><strong>Relevé de jambes jusqu'à l'échec: 12 x 10 x 8</strong></p>
 <p align="center"><strong>Série de pédalage jusqu'à l'échec </strong></p>
 
-## Poids
+### Poids
 Veillez à vous peser une fois par semaine, le même jour, le matin, sans habits, après un passage aux toilettes et à jeun.
 Puis noter votre poids à droite du numéro de la semaine que vous débutez.
 Dans mon cas, je note :
