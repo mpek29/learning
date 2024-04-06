@@ -14,11 +14,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 Bonjour,
 
-Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié au partage des connaissances que j'ai accumulée au cours de ma vie ainsi qu'au partage de celles-ci à ceux qui le souhaitent. Ici, vous pouvez retrouver des fiches de synthèse afin de vous élever par le savoir.
+Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié au partage, à ceux qui souhaitent en bénéficier, des connaissances que j'ai accumulée au cours de ma vie. Ici, vous pouvez retrouver des fiches de synthèse afin de vous élever par le savoir.
 
 Les supports exposés ici sont liés aux thématiques suivantes :
 - les relations humaines (psychologie, sciences de la communication et sociologie)
 - la santé physique (sport et alimentation)
 - la technique (informatique, électronique, mécanique et maintenance automobile)
 - la gestion financière
-- plusieurs modes de vie/lifestyle (minimalisme, zéro déchet et auto suffisance)
+- plusieurs modes de vie/lifestyle (minimalisme, zéro déchet et autosuffisance)
