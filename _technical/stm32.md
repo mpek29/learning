@@ -6,53 +6,327 @@ importance: 11
 ---
 
 ## GPIO
-- HAL_GPIO_ReadPin()
-- HAL_GPIO_WritePin()
-- HAL_GPIO_TogglePin()
-- HAL_GPIO_EXT_Callback()
+``` cpp
+/* Initialization and de-initialization functions *****************************/
+void  HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init);
+void  HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin);
+
+/* IO operation functions *****************************************************/
+GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin);
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+```
 
 ### ADC (Entrées Analogiques)
-- HAL_ADC_Start()
-- HAL_ADC_Stop()
-- HAL_ADC_Start_IT()
-- HAL_ADC_Stop_IT()
-- HAL_ADC_PollForConversion()
-- HAL_ADC_GetValue()
-- HAL_ADC_ConvHalfCpltCallback()
-- HAL_ADC_ConvCpltCallback()
+``` cpp
+/* Initialization and de-initialization functions  **********************************/
+HAL_StatusTypeDef       HAL_ADC_Init(ADC_HandleTypeDef* hadc);
+HAL_StatusTypeDef       HAL_ADC_DeInit(ADC_HandleTypeDef *hadc);
+void                    HAL_ADC_MspInit(ADC_HandleTypeDef* hadc);
+void                    HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc);
+
+/* IO operation functions  *****************************************************/
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef       HAL_ADC_Start(ADC_HandleTypeDef* hadc);
+HAL_StatusTypeDef       HAL_ADC_Stop(ADC_HandleTypeDef* hadc);
+HAL_StatusTypeDef       HAL_ADC_PollForConversion(ADC_HandleTypeDef* hadc, uint32_t Timeout);
+HAL_StatusTypeDef       HAL_ADC_PollForEvent(ADC_HandleTypeDef* hadc, uint32_t EventType, uint32_t Timeout);
+
+/* Non-blocking mode: Interruption */
+HAL_StatusTypeDef       HAL_ADC_Start_IT(ADC_HandleTypeDef* hadc);
+HAL_StatusTypeDef       HAL_ADC_Stop_IT(ADC_HandleTypeDef* hadc);
+
+/* Non-blocking mode: DMA */
+HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+HAL_StatusTypeDef       HAL_ADC_Stop_DMA(ADC_HandleTypeDef* hadc);
+
+/* ADC retrieve conversion value intended to be used with polling or interruption */
+uint32_t                HAL_ADC_GetValue(ADC_HandleTypeDef* hadc);
+
+/* ADC IRQHandler and Callbacks used in non-blocking modes (Interruption and DMA) */
+void                    HAL_ADC_IRQHandler(ADC_HandleTypeDef* hadc);
+void                    HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc);
+void                    HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef* hadc);
+void                    HAL_ADC_LevelOutOfWindowCallback(ADC_HandleTypeDef* hadc);
+void                    HAL_ADC_ErrorCallback(ADC_HandleTypeDef *hadc);
+
+/* Peripheral Control functions ***********************************************/
+HAL_StatusTypeDef       HAL_ADC_ConfigChannel(ADC_HandleTypeDef* hadc, ADC_ChannelConfTypeDef* sConfig);
+HAL_StatusTypeDef       HAL_ADC_AnalogWDGConfig(ADC_HandleTypeDef* hadc, ADC_AnalogWDGConfTypeDef* AnalogWDGConfig);
+
+/* Peripheral State functions *************************************************/
+uint32_t                HAL_ADC_GetState(ADC_HandleTypeDef* hadc);
+uint32_t                HAL_ADC_GetError(ADC_HandleTypeDef *hadc);
+
+/* Internal HAL driver functions **********************************************/
+HAL_StatusTypeDef ADC_Enable(ADC_HandleTypeDef* hadc);
+HAL_StatusTypeDef ADC_ConversionStop_Disable(ADC_HandleTypeDef* hadc);
+void              ADC_StabilizationTime(uint32_t DelayUs);
+void              ADC_DMAConvCplt(DMA_HandleTypeDef *hdma);
+void              ADC_DMAHalfConvCplt(DMA_HandleTypeDef *hdma);
+void              ADC_DMAError(DMA_HandleTypeDef *hdma);
+```
 
 ### I²C
-- HAL_I2C_Master_Transmit()
-- HAL_I2C_Master_Receive()
-- HAL_I2C_Mem_Write()
-- HAL_I2C_Mem_Read()
-- HAL_I2C_IsDeviceReady()
-- HAL_I2C_MasterTxCpltCallback()
-- HAL_I2C_MasterRxCpltCallback()
+``` cpp
+/* Initialization/de-initialization functions  **********************************/
+HAL_StatusTypeDef HAL_I2C_Init(I2C_HandleTypeDef *hi2c);
+HAL_StatusTypeDef HAL_I2C_DeInit (I2C_HandleTypeDef *hi2c);
+void HAL_I2C_MspInit(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_MspDeInit(I2C_HandleTypeDef *hi2c);
+
+
+/* I/O operation functions  *****************************************************/
+/******* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_I2C_Slave_Transmit(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_I2C_Slave_Receive(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_I2C_IsDeviceReady(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint32_t Trials, uint32_t Timeout);
+
+/******* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_I2C_Master_Transmit_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Master_Receive_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Slave_Transmit_IT(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Slave_Receive_IT(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Mem_Write_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Mem_Read_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size);
+
+HAL_StatusTypeDef HAL_I2C_Master_Sequential_Transmit_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t XferOptions);
+HAL_StatusTypeDef HAL_I2C_Master_Sequential_Receive_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t XferOptions);
+HAL_StatusTypeDef HAL_I2C_Slave_Sequential_Transmit_IT(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size, uint32_t XferOptions);
+HAL_StatusTypeDef HAL_I2C_Slave_Sequential_Receive_IT(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size, uint32_t XferOptions);
+HAL_StatusTypeDef HAL_I2C_Master_Abort_IT(I2C_HandleTypeDef *hi2c, uint16_t DevAddress);
+HAL_StatusTypeDef HAL_I2C_EnableListen_IT(I2C_HandleTypeDef *hi2c);
+HAL_StatusTypeDef HAL_I2C_DisableListen_IT(I2C_HandleTypeDef *hi2c);
+
+/******* Non-Blocking mode: DMA */
+HAL_StatusTypeDef HAL_I2C_Master_Transmit_DMA(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Master_Receive_DMA(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Slave_Transmit_DMA(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Slave_Receive_DMA(I2C_HandleTypeDef *hi2c, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Mem_Write_DMA(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_I2C_Mem_Read_DMA(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size);
+
+/******* I2C IRQHandler and Callbacks used in non blocking modes (Interrupt and DMA) */
+void HAL_I2C_EV_IRQHandler(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_ER_IRQHandler(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_MasterTxCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_MasterRxCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_SlaveTxCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_SlaveRxCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_AddrCallback(I2C_HandleTypeDef *hi2c, uint8_t TransferDirection, uint16_t AddrMatchCode);
+void HAL_I2C_ListenCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_MemTxCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_MemRxCpltCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_ErrorCallback(I2C_HandleTypeDef *hi2c);
+void HAL_I2C_AbortCpltCallback(I2C_HandleTypeDef *hi2c);
+
+/* Peripheral State, Mode and Errors functions  *********************************/
+HAL_I2C_StateTypeDef HAL_I2C_GetState(I2C_HandleTypeDef *hi2c);
+HAL_I2C_ModeTypeDef HAL_I2C_GetMode(I2C_HandleTypeDef *hi2c);
+uint32_t HAL_I2C_GetError(I2C_HandleTypeDef *hi2c);
+```
 
 ### UART(Communication Série)
-- HAL_UART_Transmit()
-- HAL_UART_Receive()
-- HAL_UART_Transmit_IT()
-- HAL_UART_Receive_IT()
-- HAL_UART_ReceiveTolde()
-- HAL_UART_ReceiveTolde_IT()
-- HAL_UART_TxCpltCallback()
-- HAL_UART_RxCpltCallback()
-- HAL_UART_TxHalfCpltCallback()
-- HAL_UART_RxHalfCpltCallback()
+``` cpp
+/* Initialization/de-initialization functions  **********************************/
+HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_HalfDuplex_Init(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_LIN_Init(UART_HandleTypeDef *huart, uint32_t BreakDetectLength);
+HAL_StatusTypeDef HAL_MultiProcessor_Init(UART_HandleTypeDef *huart, uint8_t Address, uint32_t WakeUpMethod);
+HAL_StatusTypeDef HAL_UART_DeInit (UART_HandleTypeDef *huart);
+void HAL_UART_MspInit(UART_HandleTypeDef *huart);
+void HAL_UART_MspDeInit(UART_HandleTypeDef *huart);
+
+/* IO operation functions *******************************************************/
+HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+HAL_StatusTypeDef HAL_UART_Transmit_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_UART_Receive_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+HAL_StatusTypeDef HAL_UART_DMAPause(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_DMAResume(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_DMAStop(UART_HandleTypeDef *huart);
+/* Transfer Abort functions */
+HAL_StatusTypeDef HAL_UART_Abort(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_AbortTransmit(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_AbortReceive(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_Abort_IT(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_AbortTransmit_IT(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_UART_AbortReceive_IT(UART_HandleTypeDef *huart);
+
+void HAL_UART_IRQHandler(UART_HandleTypeDef *huart);
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart);
+void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart);
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
+void HAL_UART_RxHalfCpltCallback(UART_HandleTypeDef *huart);
+void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart);
+void HAL_UART_AbortCpltCallback (UART_HandleTypeDef *huart);
+void HAL_UART_AbortTransmitCpltCallback (UART_HandleTypeDef *huart);
+void HAL_UART_AbortReceiveCpltCallback (UART_HandleTypeDef *huart);
+
+/* Peripheral Control functions  ************************************************/
+HAL_StatusTypeDef HAL_LIN_SendBreak(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_MultiProcessor_EnterMuteMode(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_MultiProcessor_ExitMuteMode(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_HalfDuplex_EnableTransmitter(UART_HandleTypeDef *huart);
+HAL_StatusTypeDef HAL_HalfDuplex_EnableReceiver(UART_HandleTypeDef *huart);
+
+/* Peripheral State functions  **************************************************/
+HAL_UART_StateTypeDef HAL_UART_GetState(UART_HandleTypeDef *huart);
+uint32_t HAL_UART_GetError(UART_HandleTypeDef *huart);
+```
 
 ### TIMER
-- HAL_TIM_PWM_Base_Start()
-- HAL_TIM_PWM_Base_Stop()
-- HAL_TIM_PWM_Base_Start_IT()
-- HAL_TIM_PWM_Base_Stop_IT()
-- HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
-- HAL_TIM_PWM_Stop()
-- \__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 750); // 75% du cycle de la période
-- \__HL_TIM_GET_COMPARE()
-- HAL_TIM_PeriodElapsedHalfCpltCallback()
-- HAL_TIM_PeriodElapsedCallback()
+``` cpp
+/* Exported functions --------------------------------------------------------*/
+/* Time Base functions ********************************************************/
+HAL_StatusTypeDef HAL_TIM_Base_Init(TIM_HandleTypeDef *htim);
+HAL_StatusTypeDef HAL_TIM_Base_DeInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_Base_MspInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef *htim);
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+
+/* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef *htim);
+HAL_StatusTypeDef HAL_TIM_Base_Stop_IT(TIM_HandleTypeDef *htim);
+
+/* Non-Blocking mode: DMA */
+HAL_StatusTypeDef HAL_TIM_Base_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+HAL_StatusTypeDef HAL_TIM_Base_Stop_DMA(TIM_HandleTypeDef *htim);
+
+/* Timer Output Compare functions **********************************************/
+HAL_StatusTypeDef HAL_TIM_OC_Init(TIM_HandleTypeDef *htim);
+HAL_StatusTypeDef HAL_TIM_OC_DeInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_OC_MspInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_OC_MspDeInit(TIM_HandleTypeDef *htim);
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_TIM_OC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_OC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_TIM_OC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_OC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: DMA */
+HAL_StatusTypeDef HAL_TIM_OC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+HAL_StatusTypeDef HAL_TIM_OC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Timer PWM functions *********************************************************/
+HAL_StatusTypeDef HAL_TIM_PWM_Init(TIM_HandleTypeDef *htim);
+HAL_StatusTypeDef HAL_TIM_PWM_DeInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_PWM_MspDeInit(TIM_HandleTypeDef *htim);
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_PWM_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_PWM_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: DMA */
+HAL_StatusTypeDef HAL_TIM_PWM_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+HAL_StatusTypeDef HAL_TIM_PWM_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Timer Input Capture functions ***********************************************/
+HAL_StatusTypeDef HAL_TIM_IC_Init(TIM_HandleTypeDef *htim);
+HAL_StatusTypeDef HAL_TIM_IC_DeInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_IC_MspInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_IC_MspDeInit(TIM_HandleTypeDef *htim);
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_TIM_IC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_IC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_TIM_IC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_IC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: DMA */
+HAL_StatusTypeDef HAL_TIM_IC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+HAL_StatusTypeDef HAL_TIM_IC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Timer One Pulse functions ***************************************************/
+HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
+HAL_StatusTypeDef HAL_TIM_OnePulse_DeInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_OnePulse_MspInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_OnePulse_MspDeInit(TIM_HandleTypeDef *htim);
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_TIM_OnePulse_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+HAL_StatusTypeDef HAL_TIM_OnePulse_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+
+/* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_TIM_OnePulse_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+HAL_StatusTypeDef HAL_TIM_OnePulse_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+
+/* Timer Encoder functions *****************************************************/
+HAL_StatusTypeDef HAL_TIM_Encoder_Init(TIM_HandleTypeDef *htim,  TIM_Encoder_InitTypeDef* sConfig);
+HAL_StatusTypeDef HAL_TIM_Encoder_DeInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_Encoder_MspInit(TIM_HandleTypeDef *htim);
+void HAL_TIM_Encoder_MspDeInit(TIM_HandleTypeDef *htim);
+
+/* Blocking mode: Polling */
+HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_Encoder_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: Interrupt */
+HAL_StatusTypeDef HAL_TIM_Encoder_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_Encoder_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Non-Blocking mode: DMA */
+HAL_StatusTypeDef HAL_TIM_Encoder_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData1, uint32_t *pData2, uint16_t Length);
+HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Control functions  *********************************************************/
+HAL_StatusTypeDef HAL_TIM_OC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef* sConfig, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef* sConfig, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_IC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_IC_InitTypeDef* sConfig, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_OnePulse_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OnePulse_InitTypeDef* sConfig, uint32_t OutputChannel,  uint32_t InputChannel);
+HAL_StatusTypeDef HAL_TIM_ConfigOCrefClear(TIM_HandleTypeDef *htim, TIM_ClearInputConfigTypeDef * sClearInputConfig, uint32_t Channel);
+HAL_StatusTypeDef HAL_TIM_ConfigClockSource(TIM_HandleTypeDef *htim, TIM_ClockConfigTypeDef * sClockSourceConfig);
+HAL_StatusTypeDef HAL_TIM_ConfigTI1Input(TIM_HandleTypeDef *htim, uint32_t TI1_Selection);
+HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchronization(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef * sSlaveConfig);
+HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchronization_IT(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef * sSlaveConfig);
+HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress, uint32_t BurstRequestSrc, \
+                                              uint32_t  *BurstBuffer, uint32_t  BurstLength);
+HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress, uint32_t BurstRequestSrc, \
+                                              uint32_t  *BurstBuffer, uint32_t  BurstLength);
+HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+HAL_StatusTypeDef HAL_TIM_GenerateEvent(TIM_HandleTypeDef *htim, uint32_t EventSource);
+uint32_t HAL_TIM_ReadCapturedValue(TIM_HandleTypeDef *htim, uint32_t Channel);
+
+/* Callback in non blocking modes (Interrupt and DMA) *************************/
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_OC_DelayElapsedCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_TriggerCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_ErrorCallback(TIM_HandleTypeDef *htim);
+
+/* Peripheral State functions  **************************************************/
+HAL_TIM_StateTypeDef HAL_TIM_Base_GetState(TIM_HandleTypeDef *htim);
+HAL_TIM_StateTypeDef HAL_TIM_OC_GetState(TIM_HandleTypeDef *htim);
+HAL_TIM_StateTypeDef HAL_TIM_PWM_GetState(TIM_HandleTypeDef *htim);
+HAL_TIM_StateTypeDef HAL_TIM_IC_GetState(TIM_HandleTypeDef *htim);
+HAL_TIM_StateTypeDef HAL_TIM_OnePulse_GetState(TIM_HandleTypeDef *htim);
+HAL_TIM_StateTypeDef HAL_TIM_Encoder_GetState(TIM_HandleTypeDef *htim);
+```
 
 ## Source
-- <https://cheatography.com/carmamo/cheat-sheets/stm32/>
+- Extrait de HAL_Driver
