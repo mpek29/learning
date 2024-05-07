@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Création d'un document LaTex
-category: Informatique
+category: R&D
 importance: 1
 ---
 

@@ -19,6 +19,6 @@ Je m'appelle Florian Pasco et je vous souhaite la bienvenue sur ce site dédié 
 Les supports exposés ici sont liés aux thématiques suivantes :
 - les relations humaines (psychologie, sciences de la communication et sociologie)
 - la santé physique (sport et alimentation)
-- la technique (informatique, électronique, mécanique et maintenance automobile)
+- l'innovation (R&D, entrepreneuriat)
 - la gestion financière
 - plusieurs modes de vie/lifestyle (minimalisme, zéro déchet et autosuffisance)

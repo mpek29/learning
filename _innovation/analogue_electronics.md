@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electronique analogique
-category: Électronique
+category: R&D
 importance: 1
 ---
 

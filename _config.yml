@@ -113,9 +113,9 @@ collections:
   physical:
     output: true
     permalink: /physical/:path/
-  technical:
+  innovation:
     output: true
-    permalink: /technical/:path/
+    permalink: /innovation/:path/
   financial:
     output: true
     permalink: /financial/:path/
@@ -240,7 +240,7 @@ enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_interpersonal_relationship_categories:  true # enables categorization of interpersonal_relationship into
 enable_physical_categories:  true # enables categorization of physical into
-enable_technical_categories:  true # enables categorization of technical into
+enable_innovation_categories:  true # enables categorization of innovation into
 enable_financial_categories:  true # enables categorization of financial into
 enable_lifestyle_categories:  true # enables categorization of lifestyle into
                                    # multiple categories

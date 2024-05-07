@@ -1,7 +1,7 @@
 ---
 layout: page
 title: STM32 avec HAL
-category: Informatique
+category: R&D
 importance: 11
 ---
 

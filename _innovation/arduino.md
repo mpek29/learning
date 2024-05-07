@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Arduino
-category: Informatique
+category: R&D
 importance: 10
 ---
 

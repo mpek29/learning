@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Markdown
-category: Informatique
+category: R&D
 importance: 9
 ---
 

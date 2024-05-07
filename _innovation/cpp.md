@@ -1,7 +1,7 @@
 ---
 layout: page
 title: C++
-category: Informatique
+category: R&D
 importance: 4
 ---
 
