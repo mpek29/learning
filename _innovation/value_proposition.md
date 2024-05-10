@@ -31,56 +31,30 @@ En effet, elle permet de faciliter le processus d'achat des consommateurs en les
 
 L'objectif principal d'une proposition de valeur est d’attirer l’attention des clients potentiels et de les convaincre de choisir votre entreprise plutôt qu’une autre. Elle doit les aider à **comprendre rapidement en quoi votre offre répond le mieux à leurs besoins ou problématiques**.  
 
-Voici un exemple : 
-
-Nous lançons une nouvelle marque de linge de lit écoresponsable pour bébés et rédigeons une proposition de valeur afin de la mettre en avant sur son site internet e-commerce. 
-
-[Notre marque ] Un cocon de douceur écologique pour le bonheur de votre bébé 
-
-[Notre marque] imagine du linge de lit, conçu à partir de matières premières éthiques, biologiques et exemptes de produits nocifs, pour les parents soucieux de l'environnement et de la santé de leur bébé. 
-
-Engagés activement dans une manière de produire plus respectueuse de la planète et des hommes, nous privilégions pour la confection de nos collections, des matières en coton bio ou en lin français, issues de filières courtes et certifiées GOTS.  
-
-Découvrez les matières naturelles, douces et surtout anallergiques, sélectionnées avec soin pour le bien-être de bébé par [la marque].
-
-Nous avons défini cette proposition de valeur pour une **cible** de parents soucieux de l'environnement et de la santé de leur bébé. En quelques phrases, elle reflète les **valeurs** écoresponsables de notre marque et met en évidence les **avantages clés** pour les clients cibles, **en les rassurant** quant à la qualité, à la sécurité et à l'impact positif sur l'environnement du linge de lit pour bébés. 
-
 ## Construire sa proposition de valeur
-Afin de construire sa proposition de valeur, un outil populaire est "The Value Proposition Canvas" de Strategyzer AG derière qui se trouve le célèbre Alexandre Osterwalder  connu pour ses travaux sur la modélisation entreprenariale et le développement du Business Model Canvas.
+Afin de construire sa proposition de valeur, un outil populaire est le "Value Proposition Canvas" de Strategyzer AG derière qui se trouve le célèbre Alexandre Osterwalder  connu pour ses travaux sur la modélisation entreprenariale et le développement du Business Model Canvas.
 
 {% include figure.html path="assets/img/innovation/Value_Proposition_Canvas-2023.png" class="img-fluid" style="background-color: white;width: 450px;" %}
 
 Grâce à cet outil, vous pourrez construire votre proposition de valeur pour que elle corresponde au mieux à votre client idéal.
 
-### 1 - Définir le client idéal
-### 2 - 
+### 1 - Travailler sur son segment de clientèle
+Dans cette étape, il faut établir un persona. Il s'agit d'une représentation semi-fictive du client idéal. Elle doit contenir ses besoins, ses paines et ses gains espéré. Cela correspond à la partie droite du "Value Proposition Canvas".
 
+Il s'agit de faire une réel travail sur les désirs de notre client idéal. On va venir cibler un ou plusieurs besoins spécifiques dans le but d'y répondre au mieux dans un second temps.
 
-### 1 - Définir le client idéal
-Dans cette étape, il faut établir un persona. Il s'agit d'une représentation semi-fictive du client idéal. Elle doit contenir ses objectifs, ses caractéristiques socio-démographiques et ses défis.
-
-Grâce à cela, on peut se faire une idée précise sur les attentes, les besoins et les problématiques des potentiels clients pour leur proposer une offre qui leur correspond.
-
-### 2 - Trouver le problème auquel l'offre répond
-Ensuite, il s'agit d'identifier la problématique à laquelle fait face notre client idéal. Cette problématique peut être un besoin, une envie ou un point de complication que l'offre va venir combler.
-
-La proposition de valeur sera construite dans le but de répondre à cette problématique.
-
-### 3 - Déterminer les avantages de notre offre par rapport à la concurrence
+### 2 - Travailler sur notre produit, service ou marque
 Il faut bien sûr convaincre les utilisateurs des bénéfices de notre produit/service mais aussi se démarquer de la concurrence qui cherchera à répondre au même problème.
 
-Il faut donc mettre en avant, à travers la proposition de valeur, les attributs du produit ou du service qui les rendent uniques sur le marché et qui donnent un avantage concurrentiel à l'entreprise.
+Il faut donc mettre en avant, à travers la proposition de valeur, les attributs du produit ou du service qui les rendent uniques sur le marché et qui donnent un avantage concurrentiel à l'entreprise. L'idée étant de répondre encore mieux au besoin de notre segment de clientèle que nos différents concurents.
 
-Pour cela, il suffit de se demander quel est l'**élément différenciant du produit ou du service par rapport aux concurrents**. Avoir recours à un marketing mix aide à définir ces avantages.
-
-Pour cela, il est nécessaire d'étudier le produit dans sa globalité (fonctionnalité, qualité, design, cycle de vie, garanties, après-vente), son prix, ses canaux de distribution et la communication qui l'entoure. Cela doit permettre d'affirmer un positionnement sur le marché.
+Pour cela, il faut se concentrer sur les gains potentiels lié à l'utilisation de nos produits ainsi que à l'effet "anti-douleur" que procure notre produit. Le plus important restant **les éléments différenciant du produit ou du service par rapport aux concurrents**.
 
 ### 4 - Rédiger une proposition de valeur unique et claire
 À cette étape, on va chercher à réaliser la proposition de valeur.
 
 Il faut donc réutiliser les éléments précédents:
 - la bonne compréhension de la cible
-- l'identification des problématiques et des bénéfices souhaités
 - la connaissance des avantages du produit ou du service
 - l'analyse de la concurrence
 
@@ -92,7 +66,7 @@ L'important est qu'elle soit compréhensible en moins de 5 secondes. De plus, il
 
 ### 5 - Valider la proposition de valeur et ses hypothèses
 
-La seule façon qui permet de savoir si votre proposition de valeur est répond aux attentes des prospects est de la tester. Il faut donc vérifier les messages et les différentes hypothèses émises quant aux besoins des utilisateurs.
+La seule façon qui permet de savoir si votre proposition de valeur répond aux attentes des prospects est de la tester. Il faut donc vérifier les messages et les différentes hypothèses émises quant aux besoins des utilisateurs.
 
 Pour cela, il est possible d'effectuer des **A/B testing**, c'est-à-dire proposer différentes propositions de valeur aux consommateurs et observer celle qui fonctionne le mieux.
 
@@ -108,6 +82,30 @@ Pour rappel, une proposition de valeur vise à convaincre le consommateur d'ache
 Il est donc important de **mettre en avant la proposition de valeur à divers endroits**. Cela peut être le site web, les emballages produits, les publicités, les enseignes ou encore dans une vitrine. Il est essentiel qu'elle soit facilement perceptible par les consommateurs.
 
 De plus, elle ne s'exprime pas forcément à travers des mots. Pour les marques déjà bien installées sur le marché, elle peut être exprimée par le biais du design, des éléments graphiques ou encore de l'attitude des membres de l'équipe.
+
+## Exemple
+
+### Le document "Value Proposition Canvas" pour le Dash Button virtuel d'Amazon
+
+{% include figure.html path="assets/img/innovation/value_proposition_canvas_dash_btn_amazon_fr_001.png" class="img-fluid" style="background-color: white;width: 450px;" %}
+
+### Une proposition de valeur rédigée
+
+```
+Nous lançons une nouvelle marque de linge de lit écoresponsable pour bébés et rédigeons une proposition de valeur afin de la mettre en avant sur son site internet e-commerce. 
+
+[Notre marque ] Un cocon de douceur écologique pour le bonheur de votre bébé 
+
+[Notre marque] imagine du linge de lit, conçu à partir de matières premières éthiques, biologiques et exemptes de produits nocifs, pour les parents soucieux de l'environnement et de la santé de leur bébé. 
+
+Engagés activement dans une manière de produire plus respectueuse de la planète et des hommes, nous privilégions pour la confection de nos collections, des matières en coton bio ou en lin français, issues de filières courtes et certifiées GOTS.  
+
+Découvrez les matières naturelles, douces et surtout anallergiques, sélectionnées avec soin pour le bien-être de bébé par [la marque].
+
+Nous avons défini cette proposition de valeur pour une **cible** de parents soucieux de l'environnement et de la santé de leur bébé. En quelques phrases, elle reflète les **valeurs** écoresponsables de notre marque et met en évidence les **avantages clés** pour les clients cibles, **en les rassurant** quant à la qualité, à la sécurité et à l'impact positif sur l'environnement du linge de lit pour bébés.
+```
+
+
 
 ## Source
 - HubSpot, *6 étapes pour créer une proposition de valeur*, 16 septembre 2021 ([lire en ligne](https://blog.hubspot.fr/marketing/proposition-de-valeur)).
