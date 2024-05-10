@@ -91,21 +91,17 @@ De plus, elle ne s'exprime pas forcément à travers des mots. Pour les marques 
 
 ### Une proposition de valeur rédigée
 
-```
-Nous lançons une nouvelle marque de linge de lit écoresponsable pour bébés et rédigeons une proposition de valeur afin de la mettre en avant sur son site internet e-commerce. 
-
-[Notre marque ] Un cocon de douceur écologique pour le bonheur de votre bébé 
-
-[Notre marque] imagine du linge de lit, conçu à partir de matières premières éthiques, biologiques et exemptes de produits nocifs, pour les parents soucieux de l'environnement et de la santé de leur bébé. 
-
-Engagés activement dans une manière de produire plus respectueuse de la planète et des hommes, nous privilégions pour la confection de nos collections, des matières en coton bio ou en lin français, issues de filières courtes et certifiées GOTS.  
-
-Découvrez les matières naturelles, douces et surtout anallergiques, sélectionnées avec soin pour le bien-être de bébé par [la marque].
-
-Nous avons défini cette proposition de valeur pour une **cible** de parents soucieux de l'environnement et de la santé de leur bébé. En quelques phrases, elle reflète les **valeurs** écoresponsables de notre marque et met en évidence les **avantages clés** pour les clients cibles, **en les rassurant** quant à la qualité, à la sécurité et à l'impact positif sur l'environnement du linge de lit pour bébés.
-```
-
-
+> Nous lançons une nouvelle marque de linge de lit écoresponsable pour bébés et rédigeons une proposition de valeur afin de la mettre en avant sur son site internet e-commerce. 
+> 
+> [Notre marque ] Un cocon de douceur écologique pour le bonheur de votre bébé 
+> 
+> [Notre marque] imagine du linge de lit, conçu à partir de matières premières éthiques, biologiques et exemptes de produits nocifs, pour les parents soucieux de l'environnement et de la santé de leur bébé. 
+> 
+> Engagés activement dans une manière de produire plus respectueuse de la planète et des hommes, nous privilégions pour la confection de nos collections, des matières en coton bio ou en lin français, issues de filières courtes et certifiées GOTS.  
+> 
+> Découvrez les matières naturelles, douces et surtout anallergiques, sélectionnées avec soin pour le bien-être de bébé par [la marque].
+> 
+> Nous avons défini cette proposition de valeur pour une **cible** de parents soucieux de l'environnement et de la santé de leur bébé. En quelques phrases, elle reflète les **valeurs** écoresponsables de notre marque et met en évidence les **avantages clés** pour les clients cibles, **en les rassurant** quant à la qualité, à la sécurité et à l'impact positif sur l'environnement du linge de lit pour bébés.
 
 ## Source
 - HubSpot, *6 étapes pour créer une proposition de valeur*, 16 septembre 2021 ([lire en ligne](https://blog.hubspot.fr/marketing/proposition-de-valeur)).
