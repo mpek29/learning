@@ -34,7 +34,7 @@ L'objectif principal d'une proposition de valeur est d’attirer l’attention d
 ## Construire sa proposition de valeur
 Afin de construire sa proposition de valeur, un outil populaire est le "Value Proposition Canvas" de Strategyzer AG derière qui se trouve le célèbre Alexandre Osterwalder  connu pour ses travaux sur la modélisation entreprenariale et le développement du Business Model Canvas.
 
-{% include figure.html path="assets/img/innovation/Value_Proposition_Canvas-2023.png" class="img-fluid" style="background-color: white;width: 450px;" %}
+{% include figure.html path="assets/img/innovation/value_proposition/Value_Proposition_Canvas-2023.png" class="img-fluid" style="background-color: white;width: 450px;" %}
 
 Grâce à cet outil, vous pourrez construire votre proposition de valeur pour que elle corresponde au mieux à votre client idéal.
 
@@ -87,7 +87,7 @@ De plus, elle ne s'exprime pas forcément à travers des mots. Pour les marques 
 
 ### Le document "Value Proposition Canvas" pour le Dash Button virtuel d'Amazon
 
-{% include figure.html path="assets/img/innovation/value_proposition_canvas_dash_btn_amazon_fr_001.png" class="img-fluid" style="background-color: white;width: 450px;" %}
+{% include figure.html path="assets/img/innovation/value_proposition/value_proposition_canvas_dash_btn_amazon_fr_001.png" class="img-fluid" style="background-color: white;width: 450px;" %}
 
 ### Une proposition de valeur rédigée
 
