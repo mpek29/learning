@@ -266,4 +266,4 @@ Et tous sont, en quelque sortes, diverses itérations de cette mue qu'entreprend
 Mais ce sont d'autres sujets pour une autre fois 😉
 
 ## Source
-- Chris Voss, ''Ne coupez jamais la poire en deux'', Pocket
+- BONNEGUEULE, *Style : les quatre piliers du "soft tailoring"* ([lire en ligne](https://www.bonnegueule.fr/traite-de-style-comprendre-le-soft-tailoring/)).
