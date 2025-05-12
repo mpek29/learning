@@ -66,6 +66,49 @@ Cette fiche résume l’ensemble des fonctions **ESP-IDF** permettant de manipul
 | Configuration timer & canal | `ledc_timer_config`, `ledc_channel_config` |
 | Mise à jour du duty cycle   | `ledc_set_duty`, `ledc_update_duty` |
 
+### Exemple PWM
+
+```c
+#include "driver/ledc.h"
+
+// Configuration des timers et canaux PWM
+void pwm_init(gpio_num_t gpio_num, ledc_channel_t channel, uint32_t freq_hz, uint8_t resolution_bits) {
+    // Configuration du timer PWM
+    ledc_timer_config_t ledc_timer = {
+        .speed_mode       = LEDC_HIGH_SPEED_MODE,
+        .timer_num        = LEDC_TIMER_0,
+        .duty_resolution  = resolution_bits,  // Résolution (ex: 13 bits)
+        .freq_hz          = freq_hz,           // Fréquence du PWM (en Hz)
+        .clk_cfg          = LEDC_APB_CLK_SRC
+    };
+    ledc_timer_config(&ledc_timer);
+
+    // Configuration du canal PWM
+    ledc_channel_config_t ledc_channel = {
+        .gpio_num       = gpio_num,           // GPIO spécifié par l'utilisateur
+        .speed_mode     = LEDC_HIGH_SPEED_MODE,
+        .channel        = channel,            // Canal PWM
+        .intr_type      = LEDC_INTR_DISABLE,
+        .timer_sel      = LEDC_TIMER_0,
+        .duty           = 0,                  // Initialisation avec un duty cycle de 0
+        .hpoint         = 0
+    };
+    ledc_channel_config(&ledc_channel);
+}
+
+// Configure le canal PWM pour un périphérique spécifique.
+static void set_pwm_device(ledc_channel_t channel, uint8_t brightness) {
+    uint32_t duty = (LEDC_TIMER_MAX_DUTY * (100 - brightness)) / 100;
+    ledc_set_duty(LEDC_HIGH_SPEED_MODE, channel, duty);
+    ledc_update_duty(LEDC_HIGH_SPEED_MODE, channel);
+}
+
+// Exemple du réglage d'une LED rouge
+void red_led(uint8_t brightness) {
+    set_pwm_device(LEDC_CHANNEL_0, brightness);
+}
+```
+
 <br>
 
 ## ADC (12 bits)
