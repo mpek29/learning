@@ -11,6 +11,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## GPIO – Entrées/Sorties
+
 | **Fonctionnalité**          | **Fonctions ESP-IDF**            |
 |-----------------------------|----------------------------------|
 | Lecture d'entrée            | `gpio_get_level`                 |
@@ -22,6 +23,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## UART
+
 | **Fonctionnalité**          | **Fonctions ESP-IDF**            |
 |-----------------------------|----------------------------------|
 | Transmission synchrone      | `uart_write_bytes`               |
@@ -34,6 +36,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## SPI
+
 | **Fonctionnalité**          | **Fonctions ESP-IDF**            |
 |-----------------------------|----------------------------------|
 | Transmission / Réception     | `spi_device_transmit`, `spi_device_queue_trans` |
@@ -43,6 +46,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## I2C
+
 | **Fonctionnalité**           | **Fonctions ESP-IDF**             |
 |------------------------------|-----------------------------------|
 | Transfert maître             | `i2c_master_write_to_device`, `i2c_master_read_from_device` |
@@ -52,6 +56,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## Timers (Timer 0 à Timer 3)
+
 | **Fonctionnalité**           | **Fonctions ESP-IDF**             |
 |-----------------------------|-----------------------------------|
 | Déclenchement d'un timer    | `timer_start`, `timer_stop`        |
@@ -61,6 +66,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## ADC
+
 | **Fonctionnalité**           | **Fonctions ESP-IDF**             |
 |-----------------------------|-----------------------------------|
 | Conversion ADC               | `adc1_get_raw`, `adc2_get_raw`    |
@@ -70,6 +76,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## DMA
+
 | **Fonctionnalité**          | **Fonctions ESP-IDF**             |
 |----------------------------|-----------------------------------|
 | Gestion DMA                 | `esp_dma_alloc`                   |
@@ -78,6 +85,7 @@ Cette fiche résume l'ensemble des fonctions **ESP-IDF** disponibles pour gérer
 <br>
 
 ## Wi-Fi
+
 | **Fonctionnalité**           | **Fonctions ESP-IDF**             |
 |-----------------------------|-----------------------------------|
 | Initialisation Wi-Fi         | `esp_wifi_init`                   |
