@@ -65,8 +65,6 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 | Encodeur                   | `HAL_TIM_Encoder_Start`, `HAL_TIM_Encoder_Stop` |
 | Callback                    | `HAL_TIM_PeriodElapsedCallback` |
 
-<br>
-
 ### Exemple PWM
 
 ```c
@@ -84,6 +82,8 @@ void red_led(uint8_t brightness) {
   set_pwm_device(&htim3, TIM_CHANNEL_1, brightness);
 }
 ```
+
+<br>
 
 ## ADC
 
