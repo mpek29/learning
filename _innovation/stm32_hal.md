@@ -11,6 +11,7 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 <br>
 
 ## GPIO – Entrées/Sorties
+
 | **Fonctionnalité**   | **Fonctions HAL** |
 |----------------------|-------------------|
 | Lecture d'entrée     | `HAL_GPIO_ReadPin` |
@@ -21,6 +22,7 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 <br>
 
 ## UART / USART
+
 | **Fonctionnalité**            | **Fonctions HAL** |
 |------------------------------|-------------------|
 | Transmission synchrone       | `HAL_UART_Transmit` |
@@ -32,6 +34,7 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 <br>
 
 ## SPI
+
 | **Fonctionnalité**           | **Fonctions HAL** |
 |-----------------------------|-------------------|
 | Transmit / Receive           | `HAL_SPI_Transmit`, `HAL_SPI_Receive`, `HAL_SPI_TransmitReceive` |
@@ -41,6 +44,7 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 <br>
 
 ## I2C
+
 | **Fonctionnalité**           | **Fonctions HAL** |
 |-----------------------------|-------------------|
 | Tx / Rx maître               | `HAL_I2C_Master_Transmit`, `HAL_I2C_Master_Receive` |
@@ -51,6 +55,7 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 <br>
 
 ## Timers (TIM1 à TIM11)
+
 | **Fonctionnalité**           | **Fonctions HAL** |
 |-----------------------------|-------------------|
 | PWM                         | `HAL_TIM_PWM_Start`, `HAL_TIM_PWM_Stop`, `__HAL_TIM_SET_COMPARE` |
@@ -81,6 +86,7 @@ void red_led(uint8_t brightness) {
 ```
 
 ## ADC
+
 | **Fonctionnalité**           | **Fonctions HAL** |
 |-----------------------------|-------------------|
 | Conversion                 | `HAL_ADC_Start`, `HAL_ADC_PollForConversion`, `HAL_ADC_GetValue` |
@@ -90,6 +96,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## DMA
+
 | **Fonctionnalité**          | **Fonctions HAL** |
 |----------------------------|-------------------|
 | IRQ transfert              | `HAL_DMA_IRQHandler` |
@@ -98,6 +105,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## USB OTG FS
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Start périphérique        | `HAL_PCD_Start` |
@@ -107,6 +115,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## RTC
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Lire l'heure/date         | `HAL_RTC_GetTime`, `HAL_RTC_GetDate` |
@@ -115,6 +124,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## Power Management
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Entrer en veille          | `HAL_PWR_EnterSLEEPMode`, `HAL_PWR_EnterSTOPMode`, `HAL_PWR_EnterSTANDBYMode` |
@@ -123,6 +133,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## Flash interne
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Accès flash               | `HAL_FLASH_Unlock`, `HAL_FLASH_Lock` |
@@ -131,6 +142,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## CRC
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Calcul CRC                | `HAL_CRC_Calculate`, `HAL_CRC_Accumulate` |
@@ -138,6 +150,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## RNG
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Nombre aléatoire          | `HAL_RNG_GenerateRandomNumber`, `HAL_RNG_IRQHandler` |
@@ -145,6 +158,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## Watchdogs
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | IWDG                      | `HAL_IWDG_Start` |
@@ -153,6 +167,7 @@ void red_led(uint8_t brightness) {
 <br>
 
 ## EXTI
+
 | **Fonctionnalité**         | **Fonctions HAL** |
 |---------------------------|-------------------|
 | Interruption ligne        | `HAL_EXTI_IRQHandler`, `HAL_EXTI_GetPending`, `HAL_EXTI_ClearPending`, `HAL_EXTI_Callback` |
