@@ -1,91 +1,161 @@
 ---
 layout: page
-title: Arduino
+title: Arduino / ATmega328P
 category: R&D
-importance: 10
+importance: 2
 ---
 
-## Built-In
+## Introduction
 
-### Pin Input/Output
-#### Digital I/O pins 0-13 Α0-A5
-- pinMode(pin,
-{INPUT | OUTPUT | INPUT_PULLUP})
-- int digitalRead(pin)
-- digitalWrite(pin, (HIGH LOW})
+Cette fiche résume les fonctions **Arduino** mappées aux **périphériques internes** du microcontrôleur **ATmega328P**.
 
-#### Analog In pins A0-A5
-- int analogRead(pin)
-- analogReference( {DEFAULT INTERNAL | EXTERNAL})
+> ⚠️ L’**Arduino Uno** est basé sur le **ATmega328P**, ce document s’applique donc directement à cette carte.
 
-#### PWM Out - pins 3 5 6 9 10 11
-- analogWrite(pin, value) // 0-255
+Elle permet d’identifier les appels de haut niveau associés à chaque module matériel.
 
-### Advanced I/O
-- tone(pin, freq_Hz, [duration_msec])
-- noTone(pin)
-- shiftOut(dataPin, clockPin, {MSBFIRST LSBFIRST), value)
-- shiftIn(dataPin, clockPin, {MSBFIRST LSBFIRST))
-- unsigned long pulseIn(pin, {HIGH LOW), [timeout_usec])
+<br>
 
-### Time
-- unsigned long millis() // Overflows at 50 days
-- unsigned long micros() // Overflows at 70 minutes
-- delay(msec)
-- delayMicroseconds(usec)
+## GPIO – Entrées/Sorties numériques
 
-### External Interrupts
-- attachInterrupt(interrupt, func, [LOW CHANGE | RISING | FALLING))
-- detachInterrupt(interrupt)
-- interrupts()
-- noInterrupts()
+| **Fonctionnalité**  | **Fonctions Arduino**                      |
+| ------------------- | ------------------------------------------ |
+| Définir une broche  | `pinMode(pin, mode)`                       |
+| Lire un niveau      | `digitalRead(pin)`                         |
+| Écrire un niveau    | `digitalWrite(pin, value)`                 |
 
-## Libraries
+<br>
 
-### Serial comm. with PC or via RX/TX
-- begin(long speed) // Up to 115200 end()
-- int available() // #bytes available int read() // -1 if none available
-- int peek() // Read w/o removing
-- flush()
-- print(data) println(data)
-- write(byte) write(char - string)
-- write(byte - data, size)
-- SerialEvent() // Called if data rdy
+## PWM / Timers
 
-### SoftwareSerial.h comm. on any pin
-- SoftwareSerial (rxPin, txPin)
-- begin(long speed) // Up to 115200 listen() // Only 1 can listen
-- isListening() // at a time.
-- read, peek, print, println, write
-// Equivalent to Serial library
+| **Fonctionnalité**       | **Fonctions Arduino**               |
+| ------------------------ | ----------------------------------- |
+| PWM matériel             | `analogWrite(pin, value)`           |
+| Attente millisecondes    | `delay(ms)`                          |
+| Attente microsecondes    | `delayMicroseconds(us)`             |
+| Temps écoulé (ms)        | `millis()`                          |
+| Temps écoulé (µs)        | `micros()`                          |
 
-### EEPROM.h access non-volatile memory
-- byte read(addr)
-- write(addr, byte)
-- EEPROM[index] // Access as array
+> **Timers utilisés** :  
+> Timer0 → `millis`, `micros`, `delay`, PWM sur broches 5, 6  
+> Timer1 → PWM sur broches 9, 10  
+> Timer2 → PWM sur broches 3, 11  
 
-### Servo.h control servo motors
-- attach(pin, [min_usec, max_usec])
-- write(angle) // 0 to 180 writeMicroseconds(us)
-// 1000-2000; 1500 is midpoint
-- int read() //0 to 180
-- bool attached()
-- detach()
+<br>
 
-### Wire.h I²C communication
-- begin() // Join a master
-- begin(addr) // Join a slave @ addr
-- requestFrom(address, count)
-- beginTransmission (addr) // Step 1
-- send(byte) // Step 2
-- send(char- string)
-- send(byte data, size)
-- endTransmission() // Step 3
-- int available() // #bytes available
-- byte receive() // Get next byte
-- onReceive (handler)
-- onRequest (handler)
+## UART / Série (USART)
+
+| **Fonctionnalité**        | **Fonctions Arduino**                        |
+| ------------------------- | -------------------------------------------- |
+| Initialisation             | `Serial.begin(baudrate)`                    |
+| Envoi de données          | `Serial.print()`, `Serial.write()`          |
+| Réception de données      | `Serial.read()`, `Serial.available()`       |
+
+> Utilise l'USART matériel de l’ATmega328P (broches 0, 1).
+
+<br>
+
+## SPI
+
+| **Fonctionnalité**    | **Fonctions Arduino**                                |
+| --------------------- | ---------------------------------------------------- |
+| Initialisation        | `SPI.begin()`                                        |
+| Transfert de données  | `SPI.transfer(data)`                                 |
+
+> Nécessite `#include <SPI.h>`  
+> Broches SPI : 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK)
+
+<br>
+
+## I2C / TWI
+
+| **Fonctionnalité**   | **Fonctions Arduino**                                           |
+| -------------------- | --------------------------------------------------------------- |
+| Initialisation       | `Wire.begin()`                                                  |
+| Transmission         | `Wire.beginTransmission(address)`, `Wire.write(data)`           |
+| Réception            | `Wire.requestFrom(address, quantity)`, `Wire.read()`            |
+
+> Nécessite `#include <Wire.h>`  
+> Broches I2C : A4 (SDA), A5 (SCL)
+
+<br>
+
+## ADC – Convertisseur Analogique / Numérique
+
+| **Fonctionnalité** | **Fonctions Arduino**             |
+| ------------------ | --------------------------------- |
+| Lecture analogique | `analogRead(pin)`                 |
+| Référence ADC      | `analogReference(type)`           |
+
+> Entrées analogiques : A0 à A7  
+> Résolution : 10 bits (valeurs 0 à 1023)
+
+<br>
+
+## EEPROM
+
+| **Fonctionnalité**     | **Fonctions Arduino**                         |
+| ---------------------- | --------------------------------------------- |
+| Lecture                | `EEPROM.read(address)`                        |
+| Écriture               | `EEPROM.write(address, value)`                |
+| Écriture conditionnelle| `EEPROM.update(address, value)`               |
+
+> Nécessite `#include <EEPROM.h>`  
+> Capacité : 1 Ko
+
+<br>
+
+## Interruptions externes
+
+| **Fonctionnalité**     | **Fonctions Arduino**                                          |
+| ---------------------- | -------------------------------------------------------------- |
+| Attacher une ISR       | `attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)`       |
+| Détacher l’ISR         | `detachInterrupt(digitalPinToInterrupt(pin))`                  |
+
+> Broches supportées :  
+> `INT0` (D2), `INT1` (D3)
+
+<br>
+
+## Watchdog
+
+| **Fonctionnalité**       | **Fonctions AVR (non Arduino)**              |
+| ------------------------ | --------------------------------------------- |
+| Activer le Watchdog      | `wdt_enable(timeout)`                         |
+| Désactiver le Watchdog   | `wdt_disable()`                               |
+
+> Nécessite `#include <avr/wdt.h>`
+
+<br>
+
+## Mémoire Flash (stockage programme)
+
+| **Fonctionnalité**       | **Fonctions Arduino / AVR**                 |
+| ------------------------ | ------------------------------------------- |
+| Stockage constant en Flash | `const __flash` ou `PROGMEM`               |
+| Accès depuis Flash        | `pgm_read_byte()`, `pgm_read_word()`       |
+
+> Nécessite `#include <avr/pgmspace.h>`
+
+<br>
+
+## Comparateur analogique
+
+| **Fonctionnalité**         | **Accès direct uniquement (pas Arduino)** |
+| -------------------------- | ------------------------------------------ |
+| Détection analogique rapide | Configuration par registre (ACSR)         |
+
+<br>
+
+## Oscillateurs & Horloge
+
+| **Fonctionnalité**     | **Configuration**                            |
+| ---------------------- | -------------------------------------------- |
+| Horloge système        | Définie par les **fuse bits** (ex: 16 MHz)   |
+| Oscillateur RTC (Timer2)| 32.768 kHz possible (asynchrone)             |
+
+---
 
 ## Source
-- <https://raw.githubusercontent.com/liffiton/Arduino-Cheat-Sheet/master/Arduino%20Cheat%20Sheet.pdf>
-- <https://www.arduino.cc/reference/en/>
+
+* [Arduino Reference](https://www.arduino.cc/reference/en/)
+* [ATmega328P Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
