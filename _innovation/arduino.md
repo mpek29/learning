@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arduino / ATmega328P
+title: Arduino
 category: R&D
 importance: 2
 ---
