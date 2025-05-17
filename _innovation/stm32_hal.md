@@ -98,7 +98,7 @@ void red_led(uint8_t brightness) {
 ### Exemple ADC
 
 ```c
-extern TIM_HandleTypeDef htim3;
+extern ADC_HandleTypeDef hadc1;
 
 // Lit la valeur analogique d'un canal ADC donné et stocke le résultat dans *value.
 static void read_adc(uint32_t *value, uint32_t channel)
