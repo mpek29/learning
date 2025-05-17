@@ -87,11 +87,14 @@ void red_led(uint8_t brightness) {
 
 ## ADC
 
-| **Fonctionnalité**           | **Fonctions HAL** |
-|-----------------------------|-------------------|
-| Conversion                 | `HAL_ADC_Start`, `HAL_ADC_PollForConversion`, `HAL_ADC_GetValue` |
-| Conversion IT / DMA        | `HAL_ADC_Start_IT`, `HAL_ADC_Start_DMA` |
-| Callback conversion        | `HAL_ADC_ConvCpltCallback` |
+| **Fonctionnalité**          | **Fonctions HAL**                                                                 |
+|----------------------------|-------------------------------------------------------------------------------------|
+| Conversion                 | `HAL_ADC_Start`, `HAL_ADC_PollForConversion`, `HAL_ADC_GetValue`, `HAL_ADC_Stop`   |
+| Conversion IT / DMA        | `HAL_ADC_Start_IT`, `HAL_ADC_Start_DMA`, `HAL_ADC_Stop_IT`, `HAL_ADC_Stop_DMA`     |
+| Sélection de canal         | `HAL_ADC_ConfigChannel`                                                            |
+| Callback conversion        | `HAL_ADC_ConvCpltCallback`                                                         |
+| Callback DMA / erreur      | `HAL_ADC_ConvHalfCpltCallback`, `HAL_ADC_ErrorCallback`                            |
+
 
 <br>
 
