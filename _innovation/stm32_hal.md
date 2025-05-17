@@ -95,6 +95,38 @@ void red_led(uint8_t brightness) {
 
 <br>
 
+### Exemple ADC
+
+```c
+extern TIM_HandleTypeDef htim3;
+
+// Lit la valeur analogique d'un canal ADC donné et stocke le résultat dans *value.
+static void read_adc(uint32_t *value, uint32_t channel)
+{
+    ADC_ChannelConfTypeDef s_config = {0};
+
+    s_config.Channel = channel;
+    s_config.Rank = 1;
+    s_config.SamplingTime = ADC_SAMPLETIME_3CYCLES; /* Défini par CubeMX */
+
+    if (HAL_ADC_ConfigChannel(&hadc1, &s_config) != HAL_OK) {
+        Error_Handler(); // Gestion d'erreur si la configuration échoue
+    }
+
+    HAL_ADC_Start(&hadc1); // Démarre la conversion ADC
+    if (HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY) == HAL_OK) {
+        *value = HAL_ADC_GetValue(&hadc1); // Récupère la valeur convertie
+    }
+    HAL_ADC_Stop(&hadc1); // Arrête la conversion ADC
+}
+
+// Exemple : lecture de la valeur d'un potentiomètre connecté au canal ADC_CHANNEL_0.
+void pot_1(uint32_t *value_pot)
+{
+    read_adc(value_pot, ADC_CHANNEL_0);
+}
+
+
 ## DMA
 
 | **Fonctionnalité**          | **Fonctions HAL** |
