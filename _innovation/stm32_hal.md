@@ -125,7 +125,7 @@ void pot_1(uint32_t *value_pot)
 {
     read_adc(value_pot, ADC_CHANNEL_0);
 }
-
+```
 
 ## DMA
 
