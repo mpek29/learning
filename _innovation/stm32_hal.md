@@ -21,6 +21,22 @@ Cette fiche résume l’ensemble des fonctions **HAL** du STM32F411 **manipulabl
 
 <br>
 
+### Exemple lecture
+
+```c
+// Lis le niveau logique sur une GPIO spécifique.
+GPIO_PinState read_GPIO(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin){
+	return HAL_GPIO_ReadPin(GPIOx, GPIO_Pin);
+}
+
+// Exemple de détection d’une commande haute sur un joystick
+GPIO_PinState sw_up() {
+	return read_GPIO(GPIOA, GPIO_PIN_4);
+}
+```
+
+<br>
+
 ## UART / USART
 
 | **Fonctionnalité**            | **Fonctions HAL** |
