@@ -86,6 +86,7 @@ GPIO_PinState sw_up() {
 ### Exemple PWM
 
 ```c
+extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
 
 // Configure le PWM avec fréquence (Hz) et duty cycle (%).
@@ -118,12 +119,12 @@ void red_led(uint8_t brightness) {
 
 // Exemple d'émission d'une onde sonore sur un haut-parleur
 void speaker_tone(uint32_t frequency_hz) {
-  set_pwm_device(&htim3, TIM_CHANNEL_2, frequency_hz, 50);  // 50 % duty pour signal carré
+  set_pwm_device(&htim2, TIM_CHANNEL_3, frequency_hz, 50);  // 50 % duty pour signal carré
 }
 
 // Pour arrêter le son
 void speaker_off(void) {
-  __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 0);
 }
 ```
 
