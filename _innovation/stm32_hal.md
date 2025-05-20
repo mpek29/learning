@@ -90,15 +90,11 @@ extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
 
 // Configure le PWM avec fréquence (Hz) et duty cycle (%).
-void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel,
-                uint32_t freq_hz, uint8_t duty_percent, PWM_SetMode mode)
-{
-  switch (mode)
-    {
+void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel, uint32_t freq_hz, uint8_t duty_percent, PWM_SetMode mode){
+  switch (mode){
     case PWM_SET_FREQ:
       if (freq_hz == 0)
         return;
-
       {
         uint32_t timer_clk = HAL_RCC_GetPCLK1Freq () * 2;
         uint32_t arr = (timer_clk / freq_hz) - 1;
@@ -119,8 +115,7 @@ void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel,
 
         HAL_TIM_PWM_Start (htim, channel);
 
-        switch (brightness)
-          {
+        switch (brightness){
           case 0:
             __HAL_TIM_SET_COMPARE (htim, channel, htim->Init.Period);
             break;
@@ -137,8 +132,7 @@ void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel,
 }
 
 // Exemple du réglage d'une LED rouge
-void red_led (int8_t brightness)
-{
+void red_led (int8_t brightness){
 	set_pwm_device (&htim3, TIM_CHANNEL_1, 0, brightness, PWM_SET_DUTY);
 }
 
