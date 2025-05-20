@@ -110,8 +110,7 @@ void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel, uint32_t freq_hz
 
     case PWM_SET_DUTY:
       {
-        int8_t brightness = clamp_brightness (duty_percent);
-        uint32_t pulse = compute_pulse_from_brightness (htim, brightness);
+        uint32_t pulse = (100 - brightness) * (htim->Init.Period + 1) / 100;
 
         HAL_TIM_PWM_Start (htim, channel);
 
@@ -130,7 +129,6 @@ void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel, uint32_t freq_hz
       break;
     }
 }
-
 // Exemple du réglage d'une LED rouge
 void red_led (int8_t brightness){
 	set_pwm_device (&htim3, TIM_CHANNEL_1, 0, brightness, PWM_SET_DUTY);
