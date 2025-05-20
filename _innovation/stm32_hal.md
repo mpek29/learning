@@ -90,36 +90,61 @@ extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
 
 // Configure le PWM avec fréquence (Hz) et duty cycle (%).
-static void set_pwm_device(TIM_HandleTypeDef *htim, uint32_t channel, uint32_t freq_hz, uint8_t duty_percent) {
-    if (freq_hz == 0 || duty_percent > 100) return;  // Paramètres invalides
+void set_pwm_device (TIM_HandleTypeDef *htim, uint32_t channel,
+                uint32_t freq_hz, uint8_t duty_percent, PWM_SetMode mode)
+{
+  switch (mode)
+    {
+    case PWM_SET_FREQ:
+      if (freq_hz == 0)
+        return;
 
-    // Récupère la fréquence d’horloge du timer (ici on suppose APB1 x2 pour TIM2/3/4/5, sinon adapter)
-    uint32_t timer_clk = HAL_RCC_GetPCLK1Freq() * 2;
+      {
+        uint32_t timer_clk = HAL_RCC_GetPCLK1Freq () * 2;
+        uint32_t arr = (timer_clk / freq_hz) - 1;
+        __HAL_TIM_SET_AUTORELOAD (htim, arr);
+        htim->Init.Period = arr;
 
-    // Calcule l'auto-reload value (ARR) pour la fréquence souhaitée
-    uint32_t arr = (timer_clk / freq_hz) - 1;
+        // Duty fixe à 50 %
+        uint32_t pulse = (arr + 1) / 2;
+        __HAL_TIM_SET_COMPARE (htim, channel, pulse);
+        HAL_TIM_PWM_Start (htim, channel);
+      }
+      break;
 
-    // Met à jour le registre ARR
-    __HAL_TIM_SET_AUTORELOAD(htim, arr);
+    case PWM_SET_DUTY:
+      {
+        int8_t brightness = clamp_brightness (duty_percent);
+        uint32_t pulse = compute_pulse_from_brightness (htim, brightness);
 
-    // Calcule la valeur du registre CCR (rapport cyclique)
-    uint32_t pulse = (arr + 1) * duty_percent / 100;
+        HAL_TIM_PWM_Start (htim, channel);
 
-    // Démarre le PWM
-    HAL_TIM_PWM_Start(htim, channel);
-
-    // Met à jour la valeur du duty cycle
-    __HAL_TIM_SET_COMPARE(htim, channel, pulse);
+        switch (brightness)
+          {
+          case 0:
+            __HAL_TIM_SET_COMPARE (htim, channel, htim->Init.Period);
+            break;
+          case 100:
+            __HAL_TIM_SET_COMPARE (htim, channel, 0);
+            break;
+          default:
+            __HAL_TIM_SET_COMPARE (htim, channel, pulse);
+            break;
+          }
+      }
+      break;
+    }
 }
 
 // Exemple du réglage d'une LED rouge
-void red_led(uint8_t brightness) {
-  set_pwm_device(&htim3, TIM_CHANNEL_1, 976, brightness);
+void red_led (int8_t brightness)
+{
+	set_pwm_device (&htim3, TIM_CHANNEL_1, 0, brightness, PWM_SET_DUTY);
 }
 
 // Exemple d'émission d'une onde sonore sur un haut-parleur
 void speaker_tone(uint32_t frequency_hz) {
-  set_pwm_device(&htim2, TIM_CHANNEL_3, frequency_hz, 50);  // 50 % duty pour signal carré
+  set_pwm_device(&htim2, TIM_CHANNEL_3, frequency_hz, 0, PWM_SET_FREQ);
 }
 
 // Pour arrêter le son
