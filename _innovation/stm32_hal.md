@@ -37,6 +37,7 @@ GPIO_PinState sw_up() {
 <br>
 
 ## UART / USART
+
 | **Functionality** | **HAL functions** |
 |------------------------------|-------------------|
 | Synchronous Transmission | `HAL_UART_Transmit` |
