@@ -1,10 +1,9 @@
 ---
-
 layout: page
 title: Gear Post 2025
 category: Lifestyle
 importance: 1
--------------
+---
 
 ## Introduction
 
