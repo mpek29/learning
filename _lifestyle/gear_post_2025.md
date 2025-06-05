@@ -13,15 +13,24 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 ## Clothing
 
+| **Image** | **Name** | **Link** |
+|:--:|:--:|:--:|
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472856/item/goods_31_472856_3x4.jpg" style="width: 76px; height: 101.325px;"> | Sweat AIRism Coton | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E472856-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472871/item/goods_37_472871_3x4.jpg" style="width: 76px; height: 101.325px;"> | Chemise Oversize En Sergé | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E472871-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/471787/item/goods_31_471787_3x4.jpg" style="width: 76px; height: 101.325px;"> | Chemise Casual Drapée | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E471787-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/471806/item/goods_31_471806_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-shirt Col Montant Brossé Manches Longues | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E471806-000/00) |
+| <img src="https://contents.mediadecathlon.com/p2849807/k$1eefd8bd30919620af4430efc95bb05a/sq/lot-de-3-boxers-en-coton-homme-noirgrisbleu.jpg" style="width: 75px; height: 75px;"> | Boxer en coton | [DOMYOS](https://www.decathlon.fr/p/lot-de-3-boxers-en-coton-homme-noir-gris-bleu/_/R-p-351494) |
+| <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/470549/item/eugoods_09_470549_3x4.jpg" style="width: 76px; height: 101.325px;"> | Wide Chino Trousers | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E470549-000/00) |
+
+<br>
+
+## Sportswear
+
 | **Item** | **Description / Remarks** | **Link** |
 |:--:|:--:|:--:|
-| Wool & Prince Merino Henley | Soft, stretchy, durable. Ideal for travel and sleep. | [Wool and Prince](https://shrsl.com/3vzse) |
-| Wool & Prince V-Neck T-Shirt | Worn 7–14 days without washing. No pocket. Annual color change. | [Wool and Prince](https://shrsl.com/4ua67) |
-| Wool & Prince Stretch Canvas Pants | Durable black jeans look. Pocket material wears with pointy phones. | [Wool and Prince](https://shrsl.com/4ua6a) |
-| Faherty All Day Shorts 9″ | Quick-drying, mesh pockets, drawstring. Some fabric pilling. | [Faherty](https://www.fahertybrand.com/products/belt-loop-all-day-shorts-9-in9-in-charcoal?variant=39265176617029) |
-| Wool & Prince Boxer Briefs | Durable, retains stretch. Waistband folding issue noted. | [Wool and Prince](https://shrsl.com/4ua6e) |
-| FarPointe Alpha Wool Beanie | Lightweight. Reasonable warmth under a hood. | [Farpointe](https://www.farpointeog.com/stock/p/alpha-caps) |
-| Relwen Flyweight Flex Blazer | Lightweight, good appearance. Better treatment when worn. | [Huckberry](https://huckberry.com/store/relwen/category/p/81469-flyweight-flex-blazer) |
+| <img src="https://contents.mediadecathlon.com/p2590821/k$829dd3498115c144b84d393c0b94b28a/sq/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes.jpg" style="width: 75px; height: 75px;"> | KIPRUN XTECHNO run900 X | [KIPRUN](https://www.decathlon.fr/p/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes/_/R-p-349826)
+| <img src="https://contents.mediadecathlon.com/p2841949/k$894eb6ff5bcb1770d08d8d89b15ac6f5/sq/short-de-running-homme-kiprun-run-500-confort-split-noir.jpg" style="width: 75px; height: 75px;"> | KIPRUN Run 500 confort split noir | [KIPRUN](https://www.decathlon.fr/p/short-de-running-homme-kiprun-run-500-confort-split-orange/_/R-p-340876)
+| <img src="https://contents.mediadecathlon.com/p2599937/k$6018689140766142be2d86b19d5e43cb/sq/t-shirt-de-running-leger-homme-kiprun-run-900-replika-blanc.jpg" style="width: 75px; height: 75px;"> | KIPRUN Run 900 REPLIKA Blanc | [KIPRUN](https://www.decathlon.fr/p/t-shirt-de-running-leger-homme-kiprun-run-900-replika-blanc/_/R-p-346075)
 
 <br>
 
@@ -38,7 +47,8 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 | **Item** | **Description / Remarks** | **Link** |
 |:--:|:--:|:--:|
-| Merrel Hydro Moc Next | No socks needed. Ventilated, doubles as water shoes. Discontinued. | [Amazon](https://www.amazon.com/Merrell-Hydro-Next-Gen-Mosstone/dp/B0CN34T27X/?tag=tynan-20) |
+| <img src="https://contents.mediadecathlon.com/p2819976/k$0989f282a4bd165d2f2e910c04bedeb6/sq/chaussures-de-running-homme-kiprun-ks900-light-orange.jpg?format=auto" style="width: 75px; height: 75px;"> | KIPRUN KS900 light - Orange | [KIPRUN](https://www.decathlon.fr/p/chaussures-running-homme-kiprun-ks900-light-gris-fonce/_/R-p-333004)
+| <img src="https://contents.mediadecathlon.com/p2683082/k$239f7d55fb60f88260320ee656817e67/sq/baskets-cj80-homme-blanche.jpg" style="width: 75px; height: 75px;"> | Baskets CJ80 homme, blanche | [DECATHLON](https://www.decathlon.fr/p/baskets-cj80-homme-blanc-et-bordeaux/_/R-p-346048)
 
 <br>
 
