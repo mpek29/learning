@@ -7,7 +7,7 @@ importance: 1
 
 ## Introduction
 
-This sheet summarises all the gear listed in the 2025 post by Tynan. Each item is categorized by type and includes essential notes.
+This sheet summarises all the equipment I'll be using in 2025.
 
 <br>
 
@@ -111,4 +111,4 @@ This sheet summarises all the gear listed in the 2025 post by Tynan. Each item i
 
 ## Summary
 
-All gear selected for maximum utility, minimal bulk, and field-tested durability. Items marked "perfect" reflect long-term satisfaction. Optimization focus is to enable lightweight, high-function travel without compromise.
+All gear selected for maximum utility, minimal bulk, and field-tested durability. Optimization focus is to enable lightweight, high-function travel without compromise.
