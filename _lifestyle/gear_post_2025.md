@@ -108,7 +108,3 @@ This sheet summarises all the equipment I'll be using in 2025.
 | Kem Vintage WWII Playing Cards | Small size. Rare. Used for 3-player Chinese game. | *Not available for purchase* |
 
 <br>
-
-## Summary
-
-All gear selected for maximum utility, minimal bulk, and field-tested durability. Optimization focus is to enable lightweight, high-function travel without compromise.
