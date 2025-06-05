@@ -26,7 +26,7 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 ## Sportswear
 
-| **Item** | **Description / Remarks** | **Link** |
+| **Item** | **Name** | **Link** |
 |:--:|:--:|:--:|
 | <img src="https://contents.mediadecathlon.com/p2590821/k$829dd3498115c144b84d393c0b94b28a/sq/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes.jpg" style="width: 75px; height: 75px;"> | KIPRUN XTECHNO run900 X | [KIPRUN](https://www.decathlon.fr/p/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes/_/R-p-349826)
 | <img src="https://contents.mediadecathlon.com/p2841949/k$894eb6ff5bcb1770d08d8d89b15ac6f5/sq/short-de-running-homme-kiprun-run-500-confort-split-noir.jpg" style="width: 75px; height: 75px;"> | KIPRUN Run 500 confort split noir | [KIPRUN](https://www.decathlon.fr/p/short-de-running-homme-kiprun-run-500-confort-split-orange/_/R-p-340876)
@@ -45,7 +45,7 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 ## Footwear
 
-| **Item** | **Description / Remarks** | **Link** |
+| **Item** | **Name** | **Link** |
 |:--:|:--:|:--:|
 | <img src="https://contents.mediadecathlon.com/p2819976/k$0989f282a4bd165d2f2e910c04bedeb6/sq/chaussures-de-running-homme-kiprun-ks900-light-orange.jpg?format=auto" style="width: 75px; height: 75px;"> | KIPRUN KS900 light - Orange | [KIPRUN](https://www.decathlon.fr/p/chaussures-running-homme-kiprun-ks900-light-gris-fonce/_/R-p-333004)
 | <img src="https://contents.mediadecathlon.com/p2683082/k$239f7d55fb60f88260320ee656817e67/sq/baskets-cj80-homme-blanche.jpg" style="width: 75px; height: 75px;"> | Baskets CJ80 homme, blanche | [DECATHLON](https://www.decathlon.fr/p/baskets-cj80-homme-blanc-et-bordeaux/_/R-p-346048)
