@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grammaire anglaise
-category: English Grammar
+category: Langues
 importance: 2
 ---
 
@@ -51,23 +51,18 @@ Cette fiche regroupe les **erreurs les plus fréquentes** que tu as faites lors 
 
 <br>
 
-## Prépositions de lieu (bonus)
+## Présent perfect vs Past perfect
 
-| **Préposition** | **Usage** | **Exemple** |
-|----------------|-----------|-------------|
-| at | point précis | `at the station` |
-| on | surface ou jour | `on the table`, `on Monday` |
-| by | proximité / avant (temps) | `by the door`, `by 5 p.m.` |
+| **Temps** | **Utilisation** | **Exemple** |
+|-----------|-----------------|-------------|
+| Présent perfect (`has finished`) | Action passée ayant un lien avec le présent | `She has finished her work.` (Elle vient de finir / c’est pertinent maintenant) |
+| Past perfect (`had finished`) | Action passée antérieure à une autre action passée | `She had finished her work before the meeting started.` |
 
 <br>
 
-## Résumé rapide
+## Expressions avec "interested in"
 
-```text
-✅ She goes (présent simple, habitude)
-✅ by (pour une deadline)
-✅ on (pour un jour)
-✅ for (durée mesurée)
-✅ look forward to attending
-✅ called (past simple pour action passée)
-❌ going (forme -ing incorrecte seule)
+| **Construction correcte** | **Exemple** |
+|--------------------------|-------------|
+| `interested in + V-ing` ou `interested in + nom` | `She is interested in learning English.` <br> `He is interested in art.` |
+| ❌ `interested to` (sauf exceptions) | ✅ `interested in` |
