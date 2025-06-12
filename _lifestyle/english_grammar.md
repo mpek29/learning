@@ -6,7 +6,8 @@ importance: 2
 ---
 
 ## Introduction
-Cette fiche regroupe les **erreurs les plus fréquentes** que tu as faites lors des quiz TOEIC, présentées de manière synthétique et applicable directement.
+Cette fiche récapitule les **erreurs grammaticales les plus courantes** en Anglais, présentées de façon claire et directement exploitable.
+
 
 <br>
 
