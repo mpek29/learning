@@ -2,7 +2,7 @@
 layout: page
 title: ESP-IDF
 category: R&D
-importance: 1
+importance: 4
 ---
 
 ## Introduction

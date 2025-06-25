@@ -2,7 +2,7 @@
 layout: page
 title: Arduino
 category: R&D
-importance: 2
+importance: 6
 ---
 
 ## Introduction

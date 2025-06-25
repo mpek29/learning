@@ -2,7 +2,7 @@
 layout: page
 title: C++
 category: R&D
-importance: 4
+importance: 2
 ---
 
 ## Points essentielle

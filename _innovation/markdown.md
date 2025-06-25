@@ -2,7 +2,7 @@
 layout: page
 title: Markdown
 category: R&D
-importance: 9
+importance: 8
 ---
 
 ## Basic Syntax

@@ -2,7 +2,7 @@
 layout: page
 title: Application Android
 category: R&D
-importance: 5
+importance: 10
 ---
 Si vous souhaitez réaliser une application android de toute sorte, vous pouvez utiliser le langage Kotlin et le logiciel Android Studio. Sur cette page, je vais vous décrire comment faire de façon optimale (à mes yeux) pour réaliser une application Android.
 

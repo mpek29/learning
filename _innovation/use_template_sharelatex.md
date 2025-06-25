@@ -2,7 +2,7 @@
 layout: page
 title: Création d'un document LaTex
 category: R&D
-importance: 1
+importance: 9
 ---
 
 Si vous souhaitez réaliser un compte-rendu de projet ou bien de stage avec un aspect professionnel, vous pouvez utiliser le langage Latex. Sur cette page, je vais vous décrire comment faire usage de mon template servant à mes comptes-rendus de projet (plusieurs d'entre eux sont disponibles dans la section « Projets » du site où vous vous trouvez.)

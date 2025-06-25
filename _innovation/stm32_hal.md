@@ -2,7 +2,7 @@
 layout: page
 title: STM32 HAL
 category: R&D
-importance: 1
+importance: 3
 ---
 
 ## Introduction
