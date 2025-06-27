@@ -55,6 +55,7 @@ This sheet summarises all the equipment I'll be using in 2025.
 <br>
 
 ### Underwear
+
 | **Image** | **Name** | **Link** |
 |:--:|:--:|:--:|
 | <img src="https://contents.mediadecathlon.com/p2849807/k$1eefd8bd30919620af4430efc95bb05a/sq/lot-de-3-boxers-en-coton-homme-noirgrisbleu.jpg" style="width: 75px; height: 75px;"> | 7 x Boxer en coton | [DOMYOS](https://www.decathlon.fr/p/lot-de-3-boxers-en-coton-homme-noir-gris-bleu/_/R-p-351494) |
