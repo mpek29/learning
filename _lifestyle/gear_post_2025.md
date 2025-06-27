@@ -72,22 +72,11 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 <br>
 
-## Accessories
-
-| **Item** | **Description / Remarks** | **Link** |
-|:--:|:--:|:--:|
-| Roav Eyewear Lennox Sunglasses | Folding, light, with transition lenses. Nose pads flop. | [ROAV](https://collabs.shop/fi0lbd), [Lensabl](https://www.lensabl.com/) |
-| Seiko Astron GPS Watch | Solar-powered, GPS sync, titanium. Always correct time. | [Chrono24](https://www.chrono24.com/search/index.htm?dosearch=true&query=astron+gps) |
-| Carbon Fiber Money Clip | Compact, durable, doesn’t trigger metal detectors. | [Amazon](https://www.amazon.com/Travelambo-Carbon-Pocket-Minimalist-Business/dp/B01N35XJXP/?tag=tynan-20) |
-
-<br>
-
 ## Bags
 
-| **Item** | **Description / Remarks** | **Link** |
+| **Item** | **Name** | **Link** |
 |:--:|:--:|:--:|
-| Minaal Daily Backpack | High quality, light, poor internal organization. | [Minaal](https://minaal.com/?rfsn=2969112.ea1dce&utm_source=refersion&utm_medium=affiliate&utm_campaign=2969112.ea1dce) |
-| Sea to Summit Ultra-sil Daypack | Compact, light, ideal for occasional beach/hike use. | *No link provided* |
+| | Sac à dos de randonnée 20L | QUECHUA
 
 <br>
 
@@ -101,16 +90,6 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 <br>
 
-## Tea Equipment
-
-| **Item** | **Description / Remarks** | **Link** |
-|:--:|:--:|:--:|
-| Keith Titanium Travel Tea Set | Double-walled, indestructible, flavor-neutral. Modified handle. | [AliExpress](https://www.aliexpress.us/item/3256804689475362.html) |
-| Kanpai Titanium 350 Thermos | Light, double-walled. Customized with 3D-printed tea containers. | [Amazon](https://www.amazon.com/Snow-Peak-Titanium-Kanpai-Bottle/dp/B006IQSY7G?tag=tynan-20) |
-| 300W Immersion Water Heater | Dual-voltage, fits inside Kanpai thermos. Essential for boiling. | [Amazon](https://www.amazon.com/Diximus-300W-Portable-Immersion-Electric/dp/B07ZSYKJPR?tag=tynan-20) |
-
-<br>
-
 ## Electronics
 
 | **Item** | **Description / Remarks** | **Link** |
@@ -120,21 +99,5 @@ This sheet summarises all the equipment I'll be using in 2025.
 | Mogics Adapter MA1 | Tiny universal adapter. Best in class. | [Amazon](https://www.amazon.com/MOGICS-Bagel-White-Universal-Travel/dp/B01NH0B0X3/?tag=tynan-20) |
 | Anker 30W Charger | Compact. Reliability issues with 240V. Carries a spare. | [Amazon](https://www.amazon.com/Anker-Charger-Foldable-iPhone-Included/dp/B0B2MM1W65/?tag=tynan-20) |
 | Incharge 6 Keychain XL Cable | Versatile but finicky. Works for all USB formats. | [Amazon](https://www.amazon.com/dp/B0BKGR5B76/tag=tynan-20) |
-
-<br>
-
-## Audio
-
-| **Item** | **Description / Remarks** | **Link** |
-|:--:|:--:|:--:|
-| 1964 Ears Custom IEMs | Custom-molded, comfortable. AliExpress Bluetooth cable. | [64 Audio](https://www.64audio.com/pages/customs-info) |
-
-<br>
-
-## Games & Extras
-
-| **Item** | **Description / Remarks** | **Link** |
-|:--:|:--:|:--:|
-| Kem Vintage WWII Playing Cards | Small size. Rare. Used for 3-player Chinese game. | *Not available for purchase* |
 
 <br>
