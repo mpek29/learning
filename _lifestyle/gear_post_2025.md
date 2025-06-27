@@ -1,4 +1,3 @@
----
 layout: page
 title: Gear Post 2025
 category: Minimalisme
@@ -13,14 +12,44 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 ## Clothing
 
+### Coat
+
+| **Item** | **Name** | **Link** |
+|:--:|:--:|:--:|
+|| Veste imperméable | KIPRUN
+|| Veste bleu marine / violet | KIPRUN
+
+### Tops - Underlays
+
 | **Image** | **Name** | **Link** |
 |:--:|:--:|:--:|
-| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472856/item/goods_31_472856_3x4.jpg" style="width: 76px; height: 101.325px;"> | Sweat AIRism Coton | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E472856-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/471806/item/goods_31_471806_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-shirt Col Montant Manches Longues | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E471806-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/465193/sub/goods_465193_sub14_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-Shirt oversize Manches longues | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E465193-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/465185/sub/goods_465185_sub14_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-Shirt oversize | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E465185-000/00?colorDisplayCode=64&sizeDisplayCode=00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475367/item/goods_31_475367_3x4.jpg" style="width: 76px; height: 101.325px;"> | Polo en piqué | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E475367-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/475367/item/eugoods_38_475367_3x4.jpg" style="width: 76px; height: 101.325px;"> | Polo en piqué | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E475367-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/475367/item/eugoods_58_475367_3x4.jpg" style="width: 76px; height: 101.325px;"> | Polo en piqué | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E475367-000/00) |
+
+### Tops - Outer layers
+
+| **Image** | **Name** | **Link** |
+|:--:|:--:|:--:|
 | <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472871/item/goods_37_472871_3x4.jpg" style="width: 76px; height: 101.325px;"> | Chemise Oversize En Sergé | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E472871-000/00) |
 | <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/471787/item/goods_31_471787_3x4.jpg" style="width: 76px; height: 101.325px;"> | Chemise Casual Drapée | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E471787-000/00) |
-| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/471806/item/goods_31_471806_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-shirt Col Montant Brossé Manches Longues | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E471806-000/00) |
-| <img src="https://contents.mediadecathlon.com/p2849807/k$1eefd8bd30919620af4430efc95bb05a/sq/lot-de-3-boxers-en-coton-homme-noirgrisbleu.jpg" style="width: 75px; height: 75px;"> | Boxer en coton | [DOMYOS](https://www.decathlon.fr/p/lot-de-3-boxers-en-coton-homme-noir-gris-bleu/_/R-p-351494) |
-| <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/470549/item/eugoods_09_470549_3x4.jpg" style="width: 76px; height: 101.325px;"> | Wide Chino Trousers | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E470549-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472856/item/goods_31_472856_3x4.jpg" style="width: 76px; height: 101.325px;"> | Sweat AIRism Coton | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E472856-000/00) |
+
+### Bottom
+
+| **Image** | **Name** | **Link** |
+|:--:|:--:|:--:|
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/470549/sub/goods_470549_sub14_3x4.jpg" style="width: 76px; height: 101.325px;"> | Wide Chino Trousers | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E470549-000/00) |
+| <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/473319/sub/goods_473319_sub14_3x4.jpg" style="width: 76px; height: 101.325px;"> | Jean foncé | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E473319-000/00?colorDisplayCode=02) |
+
+### Underwear
+| **Image** | **Name** | **Link** |
+|:--:|:--:|:--:|
+| <img src="https://contents.mediadecathlon.com/p2849807/k$1eefd8bd30919620af4430efc95bb05a/sq/lot-de-3-boxers-en-coton-homme-noirgrisbleu.jpg" style="width: 75px; height: 75px;"> | 7 x Boxer en coton | [DOMYOS](https://www.decathlon.fr/p/lot-de-3-boxers-en-coton-homme-noir-gris-bleu/_/R-p-351494) |
+| <img src="https://contents.mediadecathlon.com/p2590692/k$d9db05e7cc43d5452d6fde9b216b8583/sq/lot-de-2-paires-de-chaussettes-de-running-run500-epaisses-mi-mollet.jpg" style="width: 75px; height: 75px;"> | 7 x KIPRUN run500 | [KIPRUN](https://www.decathlon.fr/p/lot-de-2-paires-de-chaussettes-de-running-run500-epaisses-mi-mollet/_/R-p-348201?mc=8810472&c=noir_blanc)
 
 <br>
 
@@ -28,18 +57,9 @@ This sheet summarises all the equipment I'll be using in 2025.
 
 | **Item** | **Name** | **Link** |
 |:--:|:--:|:--:|
-| <img src="https://contents.mediadecathlon.com/p2590821/k$829dd3498115c144b84d393c0b94b28a/sq/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes.jpg" style="width: 75px; height: 75px;"> | KIPRUN XTECHNO run900 X | [KIPRUN](https://www.decathlon.fr/p/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes/_/R-p-349826)
-| <img src="https://contents.mediadecathlon.com/p2841949/k$894eb6ff5bcb1770d08d8d89b15ac6f5/sq/short-de-running-homme-kiprun-run-500-confort-split-noir.jpg" style="width: 75px; height: 75px;"> | KIPRUN Run 500 confort split noir | [KIPRUN](https://www.decathlon.fr/p/short-de-running-homme-kiprun-run-500-confort-split-orange/_/R-p-340876)
 | <img src="https://contents.mediadecathlon.com/p2599937/k$6018689140766142be2d86b19d5e43cb/sq/t-shirt-de-running-leger-homme-kiprun-run-900-replika-blanc.jpg" style="width: 75px; height: 75px;"> | KIPRUN Run 900 REPLIKA Blanc | [KIPRUN](https://www.decathlon.fr/p/t-shirt-de-running-leger-homme-kiprun-run-900-replika-blanc/_/R-p-346075)
-
-<br>
-
-## Outerwear
-
-| **Item** | **Description / Remarks** | **Link** |
-|:--:|:--:|:--:|
-| Montbell Plasma 1000 Jacket (JP Version) | Lightest, compact, warm jacket. Durable and ideal layering piece. | [Montbell](https://webshop.montbell.jp/goods/list.php?category=137000) |
-| Rab Cinder Phantom Shell | Waterproof, ultralight, used as windbreaker and rain shell. | [Rab](https://rab.equipment/us/mens-cinder-phantom-waterproof-jacket) |
+| <img src="https://contents.mediadecathlon.com/p2841949/k$894eb6ff5bcb1770d08d8d89b15ac6f5/sq/short-de-running-homme-kiprun-run-500-confort-split-noir.jpg" style="width: 75px; height: 75px;"> | KIPRUN Run 500 confort split noir | [KIPRUN](https://www.decathlon.fr/p/short-de-running-homme-kiprun-run-500-confort-split-orange/_/R-p-340876)
+| <img src="https://contents.mediadecathlon.com/p2590821/k$829dd3498115c144b84d393c0b94b28a/sq/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes.jpg" style="width: 75px; height: 75px;"> | KIPRUN XTECHNO run900 X | [KIPRUN](https://www.decathlon.fr/p/chaussettes-de-running-kiprun-xtechno-run900-x-blanches-vertes/_/R-p-349826)
 
 <br>
 
