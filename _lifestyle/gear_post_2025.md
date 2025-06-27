@@ -26,8 +26,8 @@ This sheet summarises all the equipment I'll be using in 2025.
 | <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/471806/item/goods_31_471806_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-shirt Col Montant Manches Longues | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E471806-000/00) |
 | <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/465193/sub/goods_465193_sub14_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-Shirt oversize Manches longues | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E465193-000/00) |
 | <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/465185/sub/goods_465185_sub14_3x4.jpg" style="width: 76px; height: 101.325px;"> | T-Shirt oversize | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E465185-000/00?colorDisplayCode=64&sizeDisplayCode=00) |
+| <img src="https://image.hm.com/assets/hm/a9/4c/a94cb6af4e37b45a9e618c70bba6c017773d9e01.jpg?imwidth=2160" style="width: 76px;"> | Chemise Noir | [H&M](https://www2.hm.com/fr_fr/productpage.1242812003.html) |
 | <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475367/item/goods_31_475367_3x4.jpg" style="width: 76px; height: 101.325px;"> | Polo en piqué | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E475367-000/00) |
-| <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/475367/item/eugoods_38_475367_3x4.jpg" style="width: 76px; height: 101.325px;"> | Polo en piqué | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E475367-000/00) |
 | <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/475367/item/eugoods_58_475367_3x4.jpg" style="width: 76px; height: 101.325px;"> | Polo en piqué | [Uniqlo](https://www.uniqlo.com/fr/fr/products/E475367-000/00) |
 
 ### Tops - Outer layers
