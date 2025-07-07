@@ -6,68 +6,68 @@ importance: 3
 ---
 ## Introduction
 
-This document brings together the **essential elements to express 95% of common sentences in German**. It covers:
+This document contains the **essential elements to express 95% of common German sentences**. It includes:
 - **Subjects (personal pronouns)**,
 - **Common verbs** (translated and conjugated in "ich"),
 - **Affirmative and interrogative sentence structures**,
-- **Main question words**,
+- **Main question words**
 
 ---
 
-## Subject Pronouns (French → German)
+## Subject Pronouns
 
-| French        | German        |
-|---------------|---------------|
-| je            | ich           |
-| tu            | du            |
-| il            | er            |
-| elle          | sie           |
-| on / nous     | wir           |
-| vous          | ihr / Sie     |
-| ils / elles   | sie           |
-
----
-
-## Common Verbs (at "ich", present tense)
-
-| French               | German         | ich…           |
-|----------------------|----------------|----------------|
-| être                 | sein           | **bin**        |
-| avoir                | haben          | **habe**       |
-| faire                | machen         | **mache**      |
-| aller                | gehen          | **gehe**       |
-| venir                | kommen         | **komme**      |
-| pouvoir              | können         | **kann**       |
-| devoir               | müssen         | **muss**       |
-| vouloir              | wollen         | **will**       |
-| savoir               | wissen         | **weiß**       |
-| dire                 | sagen          | **sage**       |
-| voir                 | sehen          | **sehe**       |
-| entendre             | hören          | **höre**       |
-| comprendre           | verstehen      | **verstehe**   |
-| prendre              | nehmen         | **nehme**      |
-| manger               | essen          | **esse**       |
-| boire                | trinken        | **trinke**     |
-| lire                 | lesen          | **lese**       |
-| écrire               | schreiben      | **schreibe**   |
-| parler               | sprechen       | **spreche**    |
-| habiter / vivre      | wohnen / leben | **wohne / lebe** |
-| aimer                | mögen / lieben | **mag / liebe**  |
+| English      | German     |
+|--------------|------------|
+| I            | ich        |
+| you (sing.)  | du         |
+| he           | er         |
+| she          | sie        |
+| we           | wir        |
+| you (pl./form.) | ihr / Sie |
+| they         | sie        |
 
 ---
 
-## Essential Question Words (95% of cases)
+## Common Verbs (conjugated with "ich", present tense)
 
-| French         | German         | Use                     |
-|----------------|----------------|--------------------------|
-| Qui            | wer            | Human subject            |
-| Que / Quoi     | was            | Object / action          |
-| Où (fixe)      | wo             | Fixed place              |
-| Où (aller)     | wohin          | Destination              |
-| Quand          | wann           | Time                     |
-| Comment        | wie            | Manner                   |
-| Pourquoi       | warum          | Cause                    |
-| Combien        | wie viel       | Quantity (invariable)    |
+| English            | German     | ich…        |
+|--------------------|------------|-------------|
+| to be              | sein       | **bin**     |
+| to have            | haben      | **habe**    |
+| to do / make       | machen     | **mache**   |
+| to go              | gehen      | **gehe**    |
+| to come            | kommen     | **komme**   |
+| can / to be able   | können     | **kann**    |
+| must / to have to  | müssen     | **muss**    |
+| to want            | wollen     | **will**    |
+| to know (fact)     | wissen     | **weiß**    |
+| to say             | sagen      | **sage**    |
+| to see             | sehen      | **sehe**    |
+| to hear            | hören      | **höre**    |
+| to understand      | verstehen  | **verstehe**|
+| to take            | nehmen     | **nehme**   |
+| to eat             | essen      | **esse**    |
+| to drink           | trinken    | **trinke**  |
+| to read            | lesen      | **lese**    |
+| to write           | schreiben  | **schreibe**|
+| to speak           | sprechen   | **spreche** |
+| to live            | wohnen / leben | **wohne / lebe** |
+| to like / to love  | mögen / lieben | **mag / liebe**  |
+
+---
+
+## Essential Question Words
+
+| English       | German     | Usage                   |
+|---------------|------------|--------------------------|
+| Who           | wer        | Human subject            |
+| What          | was        | Object or action         |
+| Where (static)| wo         | Fixed location           |
+| Where (to)    | wohin      | Destination              |
+| When          | wann       | Time                     |
+| How           | wie        | Manner                   |
+| Why           | warum      | Cause                    |
+| How much      | wie viel   | Quantity (invariable)    |
 
 ---
 
@@ -80,13 +80,13 @@ This document brings together the **essential elements to express 95% of common 
 ```
 
 **Examples:**
-- Ich esse einen Apfel. → I am eating an apple.  
+- Ich esse einen Apfel. → I eat an apple.  
 - Wir wohnen in Berlin. → We live in Berlin.  
 - Er spricht gut Deutsch. → He speaks German well.
 
 ---
 
-### **Yes/No** Question
+### Yes/No Question
 
 ```
 [ Conjugated Verb ] + [ Subject ] + [ Complement(s) ] ?
@@ -99,7 +99,7 @@ This document brings together the **essential elements to express 95% of common 
 
 ---
 
-### **Wh-** Question (Partial)
+### Wh- Question
 
 ```
 [ Question word ] + [ Conjugated Verb ] + [ Subject ] + [ Complement(s) ] ?
@@ -112,4 +112,3 @@ This document brings together the **essential elements to express 95% of common 
 - Warum bist du müde? → Why are you tired?
 
 ---
-
