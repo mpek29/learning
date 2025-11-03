@@ -46,6 +46,4 @@ Cette fiche décrit la procédure pour **reproduire un circuit imprimé (PCB)** 
 <br>
 
 ## Source
-
-* Documentation interne R&D
 * [KiCad Documentation](https://docs.kicad.org/)
