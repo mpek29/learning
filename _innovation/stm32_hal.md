@@ -262,6 +262,63 @@ void pot_1(uint32_t *value_pot)
 
 <br>
 
+## FDCAN
+
+| **Functionality** | **HAL functions** |
+|---------------------------|-------------------|
+| Initialization            | `HAL_FDCAN_Init`, `HAL_FDCAN_ConfigFilter`, `HAL_FDCAN_Start` |
+| Transmission              | `HAL_FDCAN_AddMessageToTxFifoQ` |
+| Reception                 | `HAL_FDCAN_GetRxMessage` |
+| Interrupts & Callbacks    | `HAL_FDCAN_IRQHandler`, `HAL_FDCAN_TxFifoEmptyCallback`, `HAL_FDCAN_RxFifo0Callback`, `HAL_FDCAN_ErrorCallback` |
+
+<br>
+
+### FDCAN example
+
+```c
+extern FDCAN_HandleTypeDef hfdcan1;
+
+// Configure and start FDCAN peripheral
+void fdcan_init(void) {
+  FDCAN_FilterTypeDef sFilterConfig;
+  // Configure filter (example: accept all)
+  sFilterConfig.IdType = FDCAN_STANDARD_ID;
+  sFilterConfig.FilterIndex = 0;
+  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
+  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
+  sFilterConfig.FilterID1 = 0x000;
+  sFilterConfig.FilterID2 = 0x000;
+  HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig);
+  HAL_FDCAN_Start(&hfdcan1);
+}
+
+// Transmit a CAN message
+void fdcan_transmit(uint32_t id, uint8_t *data, uint8_t len) {
+  FDCAN_TxHeaderTypeDef txHeader;
+  txHeader.Identifier = id;
+  txHeader.IdType = FDCAN_STANDARD_ID;
+  txHeader.TxFrameType = FDCAN_DATA_FRAME;
+  txHeader.DataLength = (len << 16); // e.g. FDCAN_DLC_BYTES_8
+  txHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
+  txHeader.BitRateSwitch = FDCAN_BRS_OFF;
+  txHeader.FDFormat = FDCAN_CLASSIC_CAN;
+  txHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
+  txHeader.MessageMarker = 0;
+  HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &txHeader, data);
+}
+
+// Receive a CAN message (polling)
+void fdcan_receive(void) {
+  FDCAN_RxHeaderTypeDef rxHeader;
+  uint8_t rxData[8];
+  if (HAL_FDCAN_GetRxMessage(&hfdcan1, FDCAN_RX_FIFO0, &rxHeader, rxData) == HAL_OK) {
+    // Process received data in rxData
+  }
+}
+```
+
+<br>
+
 ## EXTI
 
 | **Functionality** | **HAL functions** |
