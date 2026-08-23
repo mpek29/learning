@@ -1,0 +1,5 @@
+{%- if site.enable_mermaid %}
+  <!-- Mermaid Diagrams -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.min.js"></script>
+  <script defer src="{{ '/assets/js/mermaid.js' | relative_url }}"></script>
+{%- endif -%}

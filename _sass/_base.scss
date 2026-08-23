@@ -723,3 +723,23 @@ d-appendix a.footnote-backlink:hover {
   grid-column:none
  }
 }
+
+/* Mermaid diagrams
+   ========================================================================== */
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+
+  /* Hide the raw source during the brief moment before mermaid renders it. */
+  &:not([data-processed="true"]) {
+    visibility: hidden;
+  }
+
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+}

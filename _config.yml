@@ -245,6 +245,7 @@ enable_financial_categories:  true # enables categorization of financial into
 enable_lifestyle_categories:  true # enables categorization of lifestyle into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_mermaid:             true   # enables mermaid diagrams in ```mermaid code blocks
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
@@ -267,6 +268,8 @@ jquery:
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 mathjax:
   version: "3.2.0"
+mermaid:
+  version: "11.17.0"
 masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
