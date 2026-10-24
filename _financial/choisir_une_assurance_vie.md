@@ -27,10 +27,16 @@ Comme le PEA, l'assurance vie n'est pas un placement mais une **enveloppe**. On 
 | Disponibilité | L'argent reste disponible à tout moment (rachat partiel ou total), contrairement à une idée reçue |
 | Prélèvements sociaux | **17,2 %** des gains, l'assurance vie étant exclue de la hausse de la CSG de 2026 (18,6 % pour le PEA) |
 | Impôt avant 8 ans | 12,8 % des gains retirés (ou barème de l'impôt sur le revenu, sur option) |
-| Impôt après 8 ans | Abattement annuel de **4 600 €** de gains (9 200 € pour un couple), puis 7,5 % au-delà (12,8 % pour la part des versements dépassant 150 000 €) |
+| Impôt après 8 ans | Abattement annuel de **4 600 €** de gains (9 200 € pour un couple), **pour l'ensemble des contrats** (voir l'encadré ci-dessous), puis 7,5 % au-delà (12,8 % pour la part des versements dépassant 150 000 €) |
 | Transmission | Hors succession : jusqu'à 152 500 € par bénéficiaire sans droits pour les versements faits avant 70 ans |
 
 Le compteur des 8 ans part du **premier versement sur chaque contrat**. Ouvrir tôt un contrat avec une petite somme fait donc gagner des années.
+
+> **⚠️ L'abattement est global, pour tous les contrats.** Il est accordé **une seule fois par an et par foyer fiscal**, tous contrats confondus : avoir plusieurs contrats ne le multiplie pas (trois contrats de plus de 8 ans donnent toujours 4 600 € au total, pas 13 800 €). Seuls les contrats ayant **8 ans ou plus** y donnent droit, et la part non utilisée une année **ne se reporte pas** sur la suivante.
+>
+> Texte de loi : « […] à huit ans pour les bons ou contrats souscrits à compter du 1er janvier 1990, il est opéré, *pour l'ensemble des bons ou contrats détenus par un même contribuable*, un abattement annuel de 4 600 € pour les contribuables célibataires, veufs ou divorcés et de 9 200 € pour les contribuables mariés soumis à imposition commune […] » ([article 125-0 A du Code général des impôts, I, 1°](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044989424), version consolidée sur Légifrance, dernière modification par la loi n° 2021-1900 du 30 décembre 2021). Absence de report : [BOFiP, BOI-RPPM-RCM-20-10-20-50](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant%3DBOI-RPPM-RCM-20-10-20-50-20191220).
+>
+> **Ordre d'application :** l'abattement s'applique en priorité aux gains issus des versements faits **avant le 27 septembre 2017**, puis à ceux des versements postérieurs (même article, cinquième alinéa du I, 1°). Pour un contrat ouvert après cette date, tous les versements sont concernés de la même façon.
 
 <br>
 
@@ -157,6 +163,10 @@ flowchart TD
 
 **Étude universitaire**
 - Anarkulova, Cederburg et O'Doherty (2022), *Stocks for the long run? Evidence from a broad sample of developed markets*, Journal of Financial Economics ([présentation](https://corpgov.law.harvard.edu/2021/12/13/stocks-for-the-long-run-evidence-from-a-broad-sample-of-developed-markets)).
+
+**Textes officiels**
+- [Article 125-0 A du Code général des impôts](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044989424) (Légifrance) : abattement global de 4 600 € / 9 200 €, durée de 8 ans, ordre d'application, transformation de contrat chez le même assureur.
+- [BOFiP, BOI-RPPM-RCM-20-10-20-50](https://bofip.impots.gouv.fr/bofip/3951-PGP.html/identifiant%3DBOI-RPPM-RCM-20-10-20-50-20191220) : abattement accordé une fois par an, sans report.
 
 **Fiscalité** (sources secondaires, à recouper avec impots.gouv.fr)
 - [Linxea, fiscalité de l'assurance vie](https://www.linxea.com/tout-savoir-sur/assurance-vie/fiscalite-assurance-vie-regles-abattements-et-strategies/)
