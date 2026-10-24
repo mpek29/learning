@@ -17,7 +17,7 @@ Comme le PEA, l'assurance vie n'est pas un placement mais une **enveloppe**. On 
 
 | **Support** | **Ce que c'est** | **Risque** |
 |:--|:--|:--|
-| **Fonds en euros** | L'assureur garantit le capital et verse un intérêt chaque année, acquis définitivement | Capital garanti (attention : certains fonds ne garantissent que 98 %, voir partie 3) |
+| **Fonds en euros** | L'assureur garantit le capital et verse un intérêt chaque année, acquis définitivement | Capital garanti, diminué des frais de gestion annuels (voir partie 3) |
 | **Unités de compte (UC)** | Des fonds non garantis : ETF, fonds actions, obligations, immobilier… | Le capital peut baisser |
 
 | **Point** | **Règle** |
@@ -62,7 +62,7 @@ Pour la plupart des gens, l'assurance vie sert donc d'abord de **réservoir sans
 | Vais-je surtout utiliser le **fonds en euros** ou des **UC** ? | Les meilleurs contrats ne sont pas les mêmes : rendement du fonds en euros dans un cas, frais sur les UC et choix d'ETF dans l'autre. |
 | Puis-je mettre **100 % sur le fonds en euros** ? | Beaucoup de contrats l'interdisent ou le limitent : obligation de placer 30 % en UC, plafond à 25 % (Corum Life), plafond en euros. |
 | Le taux affiché dépend-il d'un **bonus** ? | D'après l'ACPR, les bonus liés à la part d'UC sont souvent de +1 point, jusqu'à plus de +2 points. Sans bonus, on touche au moins 0,39 point de moins que la moyenne du marché. |
-| Le capital est-il garanti à **100 % net de frais** ? | Certains fonds en euros ne garantissent que 98 % (Spirica sur Linxea Spirit 2), et certains frais peuvent monter jusqu'à 3 %/an en cas de crise (Suravenir Opportunités 2). Pour de l'argent qui ne doit pas bouger, préférer une garantie à 100 %. |
+| Combien puis-je **perdre au pire** par an ? | Dans les fonds en euros récents, le capital garanti est égal aux sommes versées **diminuées des frais de gestion**, prélevés chaque année après les intérêts. Si l'assureur ne verse rien, on perd donc ces frais : 0,60 %/an chez SwissLife (Placement-direct Euro+), 2 %/an chez Spirica (Linxea Spirit 2), jusqu'à 3 %/an chez Suravenir (Opportunités 2). Le chiffre exact figure dans le tableau des **valeurs minimales garanties** de la notice. Pour de l'argent qui ne doit pas bouger, préférer les frais les plus bas. |
 | Combien puis-je verser à l'**ouverture** ? | De 100 € à 500 € selon les contrats. |
 | Quels **frais** ? | En ligne : 0 % sur les versements et les arbitrages ; 0,5 à 0,77 %/an sur le fonds en euros (déjà déduits du taux affiché) et sur les UC. En agence, les frais d'entrée vont souvent de 2 à 5 %. |
 
@@ -86,9 +86,9 @@ Contrats en ligne en gestion libre, sans frais sur les versements ni sur les arb
 
 | **Contrat** (assureur) | **Fonds en euros 2025** | **Accès 100 % fonds en euros** | **Frais fonds en euros** | **Frais UC** | **Versement d'ouverture** |
 |:--|:--:|:--:|:--:|:--:|:--:|
-| Placement-direct Euro+ (SwissLife) | **3,60 %** | Oui, jusqu'à 200 000 € (depuis le 03/08/2026) | 0,60 % | non relevé | ~500 € (comparatifs) |
+| Placement-direct Euro+ (SwissLife) | **3,60 %** | Oui, jusqu'à 200 000 € (depuis le 03/08/2026) | 0,60 % (perte maximale 0,60 %/an, notice) | non relevé | 500 € (notice) |
 | Meilleurtaux Essentiel Vie (La France Mutualiste) | **3,50 %** (+1,50 % de bonus 2026 si 30 % d'UC) | Oui | 0,77 % | 0,50 % (ETF : 0,60 %) | 300 à 500 € (pages divergentes) |
-| Linxea Spirit 2 (Spirica), fonds Nouvelle Génération | 3,08 % | Oui, sans condition | **2 %**, garantie **98 %** nette | **0,50 %** | 500 € |
+| Linxea Spirit 2 (Spirica), fonds Nouvelle Génération | 3,08 % | Oui, sans condition | **2 %** (perte maximale 2 %/an) | **0,50 %** | 500 € |
 | BoursoBank Vie (Generali), fonds Euro Exclusif | 3,00 % (bonus sur versements en 2025) | Non vérifié | 0,75 % | 0,75 % | 300 € |
 | Altaprofits Vie (Generali), fonds Netissima | 3,00 % | Non vérifié | 0,75 % | 0,45 à 0,60 % | 300 € |
 | Linxea Avenir 2+ (Suravenir), Opportunités 2 | 3,00 % (si moins de 30 % d'UC) | Oui | 0,60 %, jusqu'à 3 % en cas de crise | 0,60 % | non relevé |
@@ -107,13 +107,13 @@ flowchart TD
     A{"À quoi va servir<br/>le contrat ?"} -->|"Réservoir sans risque<br/>ou projet dans moins de 5 ans"| B{"Montant à placer<br/>tout de suite ?"}
     A -->|"Unités de compte, ETF<br/>hors PEA"| C["Frais UC les plus bas :<br/>Linxea Spirit 2 ou Lucya Cardif (0,50 %)"]
     A -->|"Juste lancer le compteur<br/>des 8 ans"| D["Le plus petit ticket :<br/>Fortuneo Vie (100 €)"]
-    B -->|"500 € ou plus"| E["Meilleur taux à 100 % garanti :<br/>Placement-direct Euro+"]
+    B -->|"500 € ou plus"| E["Meilleur taux sans condition,<br/>frais les plus bas :<br/>Placement-direct Euro+"]
     B -->|"Moins de 500 €"| D
 ```
 
 **À retenir :**
 
-- **Pour un réservoir sans risque**, viser un fonds en euros **accessible à 100 % sans condition d'UC** et **garanti à 100 %**. Au 24/10/2026, Placement-direct Euro+ cumule le meilleur taux 2025 sans condition (3,60 %) et l'accès à 100 % jusqu'à 200 000 €.
+- **Pour un réservoir sans risque**, viser un fonds en euros **accessible à 100 % sans condition d'UC**, avec les **frais de gestion les plus bas** (ce sont eux qui fixent la perte maximale par an). Au 24/10/2026, Placement-direct Euro+ cumule le meilleur taux 2025 sans condition (3,60 %) et l'accès à 100 % jusqu'à 200 000 €.
 - **Se méfier des taux les plus hauts** : ils supposent souvent des UC (bonus) ou un plafond (Corum Life, 25 % maximum en fonds en euros).
 - **Le rendement passé d'un fonds en euros n'est pas garanti pour la suite.** Les écarts entre bons contrats sont de quelques dixièmes de point par an. La garantie, l'accès sans condition et les frais comptent davantage.
 - **On peut avoir plusieurs contrats.** Ouvrir un petit contrat aujourd'hui pour lancer le compteur des 8 ans n'empêche pas d'en ouvrir un meilleur plus tard.
@@ -137,7 +137,7 @@ flowchart TD
 ## 8. Refaire l'analyse quand les offres changent
 
 1. **Chaque début d'année**, les assureurs annoncent le rendement de l'année passée : relever le taux du fonds en euros **sans bonus** et ses **conditions** (part d'UC exigée, plafond).
-2. **Vérifier dans la notice d'information** (document contractuel, pas la page commerciale) : frais de gestion du fonds en euros, garantie du capital (100 % ou 98 %, nette ou brute de frais), frais pouvant être relevés en cas de crise.
+2. **Vérifier dans la notice d'information** (document contractuel, pas la page commerciale) : frais de gestion du fonds en euros, garantie du capital (presque toujours diminuée des frais de gestion), tableau des valeurs minimales garanties, frais pouvant être relevés en cas de crise.
 3. **Comparer au rapport annuel de l'ACPR** (publié vers juin) : un contrat durablement sous la moyenne sans raison mérite d'être reconsidéré.
 4. **Ne pas clôturer un vieux contrat** pour en ouvrir un nouveau : on perdrait l'ancienneté fiscale. Mieux vaut cesser de l'alimenter et verser sur le nouveau.
 5. **Ignorer les bonus temporaires** qui exigent des UC qu'on ne voulait pas.
