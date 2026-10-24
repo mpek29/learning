@@ -233,11 +233,90 @@ flowchart TD
 | Période d'essai, CDD, intérim, revenus variables | **6 mois** de dépenses obligatoires, voire plus : priorité absolue | Après la précaution | PEA et assurance vie ouverts avec le versement minimum, seulement pour lancer leurs compteurs fiscaux |
 | CDI confirmé, seul revenu du foyer | **4 à 6 mois** | Une réserve pour chaque risque identifié | L'épargne mensuelle va au PEA |
 | CDI confirmé, deux revenus dans le foyer | **3 mois** | Une réserve pour chaque risque identifié | L'épargne mensuelle va au PEA |
-| Précaution et réserves constituées | On n'y touche plus, sauf pour les réajuster | Idem | **PEA** pour tout ce qui peut rester investi 8 ans ou plus ; **assurance vie (fonds en euros)** pour l'argent sans risque au-delà des plafonds des livrets (22 950 € + 12 000 €) ou pour un projet à 1 à 5 ans |
+| Précaution et réserves constituées | On n'y touche plus, sauf pour les réajuster | Idem | **PEA** pour tout ce qui peut rester investi 8 ans ou plus ; **assurance vie (fonds en euros)** pour un projet à 1 à 5 ans ou l'argent sans risque au-delà des plafonds des livrets (22 950 € + 12 000 €) |
 
-**Le partage entre PEA et assurance vie ne dépend pas du contrat de travail, mais de la date à laquelle on aura besoin de l'argent.** L'argent nécessaire dans moins de 5 ans reste sans risque (livrets, puis fonds en euros) ; celui qui peut attendre 8 ans ou plus va en actions, dans le PEA. Le contrat de travail ne joue que sur la taille de l'épargne de précaution.
+**Le partage entre PEA et assurance vie ne dépend pas du contrat de travail, mais de la date à laquelle on aura besoin de l'argent.** L'argent nécessaire dans moins de 5 ans reste sans risque (livrets ou fonds en euros, voir ci-dessous lequel choisir) ; celui qui peut attendre 8 ans ou plus va en actions, dans le PEA. Le contrat de travail ne joue que sur la taille de l'épargne de précaution.
 
 Les durées de ce tableau sont des conventions, pas des résultats de recherche : la fourchette de 3 à 6 mois est la plus citée par les praticiens (voir la partie « Non vérifié » des sources), et la modulation suit un raisonnement simple : plus le revenu est fragile, plus le coussin doit être gros.
+
+### Exemple complet : le parcours de l'épargne de Camille
+
+Camille (exemple fictif des parties 5 et 6) vient de signer un CDI et est en période d'essai : elle vise donc **6 mois** de précaution. Elle a aussi une voiture âgée, qu'elle veut pouvoir remplacer comptant si elle lâche. Elle part de zéro.
+
+```mermaid
+flowchart TD
+    subgraph M["Chaque mois, sur le compte courant"]
+        C0["Veille du salaire<br/>coussin : 1 350 €"]
+        C1["Le 1er : + 2 400 € de salaire<br/>= 3 750 €"]
+        C2["Le lendemain : − 761 € d'épargne<br/>= 2 989 €"]
+        C3["Pendant le mois : − 1 339 € obligatoires<br/>− 300 € d'enveloppe libre<br/>= retour à ~1 350 €"]
+        C0 --> C1 --> C2 --> C3
+        C3 -. "mois suivant" .-> C0
+    end
+
+    S["Épargne du mois<br/>2 400 − 1 339 − 300 = 761 €"]
+    C2 -->|"virement permanent"| S
+
+    subgraph P1["1. Les réserves (environ 17 mois)"]
+        LA["Livret A<br/>précaution emploi<br/>cible A : ~8 000 €"]
+        LD["LDDS<br/>réserve voiture<br/>cible B : 5 000 €"]
+    end
+
+    subgraph P2["2. Le long terme (des années)"]
+        PEA["PEA<br/>ETF Monde, chaque mois"]
+    end
+
+    subgraph P3["3. Projet prévu dans 3 à 5 ans : mise à l'abri"]
+        R["Retraits progressifs du PEA"]
+        AV["1. Fonds en euros de l'assurance vie<br/>le meilleur des deux contrats ce jour-là"]
+        LIV["2. Le reste sur les livrets<br/>jusqu'aux plafonds"]
+    end
+
+    AV1["Assurance vie n° 1<br/>assureur A, contrat principal"]
+    AV2["Assurance vie n° 2<br/>assureur B, contrat de secours"]
+    PROJ(["Achat : logement, gros projet"])
+
+    S -->|"jusqu'à avoir atteint la cible A"| LA
+    S -->|"puis jusqu'à avoir atteint la cible B"| LD
+    S -->|"dès que les cibles A puis B sont atteintes"| PEA
+    PEA --> R
+    R --> AV
+    R -->|"s'il reste de l'argent"| LIV
+    AV --- AV1
+    AV --- AV2
+    AV --> PROJ
+    LIV --> PROJ
+```
+
+**Le mois type.** Le compte courant garde un **coussin** d'environ un mois de dépenses obligatoires (1 339 €, arrondis à 1 350 €), pour ne jamais être à découvert avant le salaire suivant. Le lendemain du salaire, tout ce qui dépasse ce coussin, les dépenses obligatoires et l'enveloppe libre part en épargne :
+
+| **Étape** | **Montant** | **Solde du compte courant** |
+|:--|--:|--:|
+| Veille du salaire : il ne reste que le coussin | | 1 350 € |
+| + salaire | + 2 400 € | 3 750 € |
+| − dépenses obligatoires du mois (partie 5) | − 1 339 € | |
+| − enveloppe libre (partie 6) | − 300 € | |
+| − coussin qui reste sur le compte | − 1 350 € | |
+| **= épargne du mois, virée le lendemain du salaire** | **761 €** | 2 989 € après le virement |
+| Fin du mois, dépenses faites | | retour à ~1 350 € |
+
+**Les trois phases.**
+
+1. **Les réserves.** L'épargne remplit d'abord le Livret A jusqu'à 6 mois de dépenses obligatoires (6 × 1 339 € ≈ 8 000 €, environ 11 mois d'épargne), puis le LDDS jusqu'au prix d'une voiture d'occasion fiable (5 000 €, environ 7 mois). Les deux usages sont séparés exprès, pour ne pas vider sans le voir l'argent prévu pour une perte d'emploi. Pendant cette phase, un PEA et deux assurances vie sont ouverts avec leur **versement minimum**, seulement pour lancer leurs compteurs fiscaux (5 et 8 ans).
+2. **Le long terme.** Une fois les deux cibles atteintes, les 761 € partent chaque mois sur le PEA, pendant des années. Les livrets restent à leur cible et ne bougent plus, sauf coup dur.
+3. **La mise à l'abri.** Quand un achat se précise, 3 à 5 ans avant, on retire le PEA **petit à petit**, pour ne pas tout vendre au mauvais moment. L'argent va dans le fonds en euros du meilleur des deux contrats d'assurance vie à ce moment-là ; c'est pour garder ce choix qu'ils sont ouverts chez deux assureurs différents (voir le [tuto assurance vie](../choisir_une_assurance_vie/)).
+
+**Pourquoi le fonds en euros avant les livrets, pour un projet daté.** Aux taux connus fin 2026, un bon fonds en euros rapporte plus que le Livret A, même après impôts :
+
+| **Placement** | **Rendement brut** | **Prélevé sur les gains** | **Net** |
+|:--|--:|:--|--:|
+| Livret A, LDDS | 1,70 % (depuis le 1er août 2026) | rien | **1,70 %** |
+| Fonds en euros moyen du marché, avant 8 ans | 2,63 % (2025) | 30 % (12,8 % d'impôt + 17,2 % de prélèvements sociaux) | **~1,8 %** |
+| Fonds en euros moyen du marché, après 8 ans | 2,63 % (2025) | 17,2 % (gains sous l'abattement de 4 600 €) | **~2,2 %** |
+| Bon fonds en euros sans condition, avant 8 ans | 3,60 % (2025) | 30 % | **~2,5 %** |
+| Bon fonds en euros sans condition, après 8 ans | 3,60 % (2025) | 17,2 % | **~3,0 %** |
+
+Les livrets restent imbattables pour la **précaution** : disponibles tout de suite et garantis à 100 % par l'État, alors qu'un rachat d'assurance vie se paie en quelques jours à 30 jours et que la garantie d'un fonds en euros est diminuée de ses frais de gestion. Un apport prévu des années à l'avance, lui, peut attendre quelques semaines. **Cet ordre dépend des taux** : si le Livret A remontait vers 3 % comme en 2023, les livrets repasseraient devant. Le jour venu, comparer les rendements nets avant de choisir.
 
 <br>
 
@@ -260,6 +339,8 @@ Les durées de ce tableau sont des conventions, pas des résultats de recherche 
 
 **Organismes publics**
 - Insee, [Consommation et épargne des ménages](https://www.insee.fr/fr/statistiques/8612566), France, portrait social, novembre 2025 (part des dépenses pré-engagées).
+- Gouvernement, [Le taux du livret A augmente à compter du 1er août 2026](https://www.info.gouv.fr/actualite/augmentation-du-taux-du-livret-a-a-compter-du-1er-aout-2026) (1,70 %, LDDS identique).
+- ACPR, [Revalorisation 2025 des contrats d'assurance vie et de capitalisation](https://acpr.banque-france.fr/system/files/2026-06/20260630_AS180_revalorisation_2025.pdf), juin 2026 (taux moyen des fonds en euros : 2,63 %).
 - La finance pour tous (Institut pour l'éducation financière du public), [Établir un budget prévisionnel](https://www.lafinancepourtous.com/pratique/vie-perso/etablir-son-budget/bien-etablir-son-budget/2eme-etape-etablir-un-budget-previsionnel/), avec un modèle de budget mois par mois.
 
 **Non vérifié**
