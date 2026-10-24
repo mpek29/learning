@@ -56,9 +56,16 @@
     }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", start);
+  // Wait for stylesheets and fonts: rendering at DOMContentLoaded measures the
+  // page before it is fully styled and spreads the nodes several times too far apart.
+  var whenReady = function () {
+    var fonts = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+    fonts.then(start, start);
+  };
+
+  if (document.readyState === "complete") {
+    whenReady();
   } else {
-    start();
+    window.addEventListener("load", whenReady);
   }
 })();
